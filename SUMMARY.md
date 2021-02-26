@@ -40,4 +40,6 @@
 * [틱택토 구현](zerocho/undefined-13.md)
 * [forEach와 중첩 반복문](zerocho/foreach.md)
 * [로또추첨기 Arrary & fill](zerocho/arrary-and-fill.md)
+* [배열 map 메서드](zerocho/map.md)
+* [배열 slice & sort](zerocho/slice-and-sort.md)
 
