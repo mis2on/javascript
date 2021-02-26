@@ -46,4 +46,5 @@
 * [로또추첨기 마무리 & querySelector](zerocho/and-queryselector.md)
 * [가위바위보\(이미지 스프라이트\)](zerocho/undefined-15.md)
 * [딕셔너리 자료구조](zerocho/undefined-16.md)
+* [Object.entries, find, findIndex](zerocho/object.entries-find-findindex.md)
 
