@@ -37,4 +37,6 @@
 * [틱택토 순서도 & 화면](zerocho/and-2.md)
 * [이차원 배열](zerocho/undefined-12.md)
 * [e.target과 parentNode](zerocho/e.target-parentnode.md)
+* [틱택토 구현](zerocho/undefined-13.md)
+* [forEach와 중첩 반복문](zerocho/foreach.md)
 
