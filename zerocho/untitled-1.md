@@ -1,2 +1,2 @@
-# window 구현
+# window 객체
 
