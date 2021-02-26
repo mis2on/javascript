@@ -21,5 +21,6 @@
 * [객체의 속성](zerocho/undefined-6.md)
 * [배열 기본](zerocho/undefined-7.md)
 * [구구단 구현](zerocho/undefined-8.md)
-* [Untitled](zerocho/untitled-1.md)
+* [window 구현](zerocho/untitled-1.md)
+* [document 객체와 DOM](zerocho/document-dom.md)
 
