@@ -30,4 +30,7 @@
 * [구구단 화면 만들기](zerocho/undefined-11.md)
 * [비동기 & 숫자야구 순서도](zerocho/and-1.md)
 * [배열 push pop shift unshift](zerocho/push-pop-shift-unshift.md)
+* [배열 splice](zerocho/splice.md)
+* [split & join](zerocho/split-and-join.md)
+* [indexOf & 숫자야구 구현](zerocho/indexof-and.md)
 
