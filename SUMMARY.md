@@ -42,4 +42,6 @@
 * [로또추첨기 Arrary & fill](zerocho/arrary-and-fill.md)
 * [배열 map 메서드](zerocho/map.md)
 * [배열 slice & sort](zerocho/slice-and-sort.md)
+* [JS로 CSS 조작하기](zerocho/js-css.md)
+* [로또추첨기 마무리 & querySelector](zerocho/and-queryselector.md)
 
