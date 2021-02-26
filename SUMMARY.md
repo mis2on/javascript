@@ -39,4 +39,5 @@
 * [e.target과 parentNode](zerocho/e.target-parentnode.md)
 * [틱택토 구현](zerocho/undefined-13.md)
 * [forEach와 중첩 반복문](zerocho/foreach.md)
+* [로또추첨기 Arrary & fill](zerocho/arrary-and-fill.md)
 
