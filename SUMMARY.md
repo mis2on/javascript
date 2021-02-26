@@ -35,4 +35,6 @@
 * [indexOf & 숫자야구 구현](zerocho/indexof-and.md)
 * [리팩토링 & 개념 복습](zerocho/and-3.md)
 * [틱택토 순서도 & 화면](zerocho/and-2.md)
+* [이차원 배열](zerocho/undefined-12.md)
+* [e.target과 parentNode](zerocho/e.target-parentnode.md)
 
