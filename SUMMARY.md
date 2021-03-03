@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Javascript](README.md)
 
 ## zerocho 자바스크립트
 
