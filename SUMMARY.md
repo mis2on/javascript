@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Javascript](README.md)
+* [zerocho 자바스크립트](README.md)
 
-## zerocho 자바스크립트
+## 초급 <a id="zerocho"></a>
 
 * [자바스크립트 프로그래밍](zerocho/untitled.md)
 * [값: 숫자, 문자, 불린](zerocho/undefined.md)

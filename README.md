@@ -1,2 +1,2 @@
-# Javascript
+# zerocho 자바스크립트
 
