@@ -24,3 +24,13 @@ if(5 * 5 === prompt('답?')) {
 `prompt 함수 : 사용자로부터 입력받은 값. 문자데이터를 입력받을 수 있다.  
 number 함수 : 문자열을 숫로 변환하는 함수.`
 
+```javascript
+var result = prompt('답?')
+    if(5 * 5 === Number(result)) {
+        '딩동댕'
+    } else {
+        '땡'
+    }
+"딩동댕"
+```
+
