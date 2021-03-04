@@ -12,6 +12,7 @@
 * [조건문\(if\)](zerocho/if.md)
 * [반복문\(while\)](zerocho/while.md)
 * [함수](zerocho/undefined-3.md)
+* [문자열 심화](zerocho/undefined-14.md)
 * [else if](zerocho/else-if.md)
 * [반복문\(for\)](zerocho/for.md)
 * [끝말잇기 구현](zerocho/undefined-2.md)
