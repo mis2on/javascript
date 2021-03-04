@@ -6,8 +6,7 @@
 
 * [자바스크립트 프로그래밍](zerocho/untitled.md)
 * [값: 숫자, 문자, 불린](zerocho/undefined.md)
-* [연산자](zerocho/undefined-1.md)
-* [비교 연산자](zerocho/undefined-3.md)
+* [산술연산자, 비교연산자](zerocho/undefined-1.md)
 * [변수\(var\)](zerocho/var.md)
 * [null, undefined](zerocho/null-undefined.md)
 * [조건문\(if\)](zerocho/if.md)
