@@ -1,6 +1,6 @@
 # null, undefined
 
-## 변수 생성, 변수값 변
+## 변수 생성, 변수값 변경
 
 ```javascript
 var empty    //empty라는 변수를 만들고 값을 넣지 않음
@@ -28,7 +28,7 @@ var이 붙어 있지 않으면 값을 바꾸는 것
 
 ## undefined와 null
 
-**undefined** 변수를 만들고 아무것도 넣지 않았을 때 컴퓨터가 기본으로 넣어준 빈   
+**undefined** 변수를 만들고 아무것도 넣지 않았을 때 컴퓨터가 기본으로 넣어준 빈 값  
 **null**은 내가 넣어준 빈 값   
   
 원래 값이 있다가 지우고자 할  undefined보다 null을 사용하면   
