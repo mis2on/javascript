@@ -11,7 +11,6 @@
 * [null, undefined](zerocho/null-undefined.md)
 * [조건문\(if\)](zerocho/if.md)
 * [반복문\(while\)](zerocho/while.md)
-* [복습 & 연산자 심화](zerocho/and.md)
 * [else if](zerocho/else-if.md)
 * [반복문\(for\)](zerocho/for.md)
 * [끝말잇기 구현](zerocho/undefined-2.md)
