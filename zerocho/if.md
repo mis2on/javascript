@@ -7,7 +7,7 @@
 }`
 
 ```javascript
-if(5 * 5 ===prompt('답?')) {
+if(5 * 5 === prompt('답?')) {
     '딩동댕'
 } else {
     '땡'
