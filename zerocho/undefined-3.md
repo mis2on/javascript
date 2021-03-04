@@ -1,10 +1,15 @@
 # 함수
 
 ```javascript
-function 함수명(x, y) {
-    return x + y;
+function 함수명(x, z) {
+    return x + z + 5;
 }
+함수명(3, 2)    //3+2+5
+10
+
 ```
+
+\( \) 부분 입력값, return 부분 출력
 
 ```javascript
 3 ** 3    //**는 제
