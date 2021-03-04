@@ -1,5 +1,7 @@
 # 함수
 
+특정 기능을 수행하는 소스 코드를 따로 묶어 놓은 
+
 ```javascript
 function 함수명(x, z) {
     return x + z + 5;
