@@ -6,7 +6,7 @@
 ```text
 '안녕'
 "안녕" 
-true      <!-- boolean -->
+true      /* boolean */
 'true'    <!-- 문자 -->
 
 ```
