@@ -6,8 +6,8 @@
 ```text
 '안녕'
 "안녕" 
-true      /* boolean */
-'true'    <!-- 문자 -->
+true     <-= boolean 
+'true'    <- 문자 
 
 ```
 
