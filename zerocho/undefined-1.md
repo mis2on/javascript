@@ -61,5 +61,24 @@ false
 {% endtab %}
 {% endtabs %}
 
+## ==과 === 비
 
+```javascript
+5 == '5' //true
+NaN == NaN //false
+
+★ 비교할때는 == 대신 === 사용해라!
+5 == '5' //true
+5 === '5' //false
+
+★ !=, !== 부정
+5 != '5' //false
+5 !== '5' //true
+```
+
+## 비교 예외 NaN
+
+NaN은 Not a Number  
+NaN == NaN  
+무조건 false
 
