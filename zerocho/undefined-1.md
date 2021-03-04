@@ -29,7 +29,7 @@
 {% endtab %}
 {% endtabs %}
 
-## 비교 연산
+## 비교 연산자
 
 {% tabs %}
 {% tab title=">, < " %}
