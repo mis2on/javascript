@@ -67,5 +67,23 @@ star
 32
 ```
 
+## 문제3
+
+```javascript
+*****
+ ****
+  ***
+   **
+    *
+    
+for(var star = 5; star <= 1; star -= 1) {
+    console.log('*'.repeat(star))
+}
+```
+
+규칙을 찾는게 중요!  
+\*은 하나씩 줄어들고,  
+공백은 하나씩 늘어나
+
 
 
