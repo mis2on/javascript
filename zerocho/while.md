@@ -23,7 +23,14 @@ while(result < 100) {
 false
 ```
 
-
+```javascript
+var num = 0    //실행순서1
+while(num < 5) {    //실행순서2, 실행순서5
+    console.log('딸기가 좋아')    //실행순서3
+    num = num + 10;    //실행순서4
+}
+'망고가 좋아'    //6
+```
 
 
 
