@@ -36,7 +36,7 @@ for(var star = 5; star >= 1; star -= 1) {
 star -= 1  
 star = star - 1
 
-## 문
+## 문제
 
 ```javascript
 **********    //10개
