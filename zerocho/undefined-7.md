@@ -42,3 +42,10 @@ length: 4
 __proto__: Array(0)  //아직 몰라도됨
 ```
 
+```javascript
+Array.isArray(배열)
+true
+```
+
+
+
