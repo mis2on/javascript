@@ -18,7 +18,7 @@
 * [끝말잇기 구현](zerocho/undefined-2.md)
 * [별찍기\(반복문 연습\)](zerocho/undefined-4.md)
 * [객체](zerocho/undefined-5.md)
-* [배열 기본](zerocho/undefined-7.md)
+* [배열](zerocho/undefined-7.md)
 * [구구단 구현](zerocho/undefined-8.md)
 * [window 객체](zerocho/untitled-1.md)
 * [document 객체와 DOM](zerocho/document-dom.md)
