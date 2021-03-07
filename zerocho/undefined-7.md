@@ -28,5 +28,7 @@ var 배열 = [
 "딸기"
 배열[4]
 undefined
+배열[-1]
+undefined
 ```
 
