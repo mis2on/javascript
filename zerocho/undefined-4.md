@@ -18,7 +18,7 @@ for(var star = 1; star <= 5; star += 1) {
 star += 1  
 star = star + 1
 
-## 별 빼
+## 별 빼기
 
 ```javascript
 for(var star = 5; star >= 1; star -= 1) {
