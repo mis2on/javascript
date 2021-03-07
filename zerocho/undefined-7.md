@@ -42,7 +42,7 @@ length: 4
 __proto__: Array(0)  //아직 몰라도됨
 ```
 
-## 객
+## 객체 
 
 ```javascript
 var 배열같은객체 = {
