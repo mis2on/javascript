@@ -88,5 +88,24 @@ for(var star = 5; star >= 1; star -= 1) {
 
 ' ' + '\*' === ' \*'  
 
+## 문제4
 
+```javascript
+*********
+ *******
+  *****
+   ***
+    *
+    
+for(var star = 9; star >= 1; star -= 2) {
+    console.log(' '.repeat((9 - star)/2) + '*'.repeat(star))
+    
+} 
+```
+
+규칙을 찾는게 중요!  
+\*은 하나씩 줄어들고,  
+공백은 하나씩 늘어나고
+
+' ' + '\*' === ' \*'  
 
