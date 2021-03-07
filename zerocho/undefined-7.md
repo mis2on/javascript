@@ -42,9 +42,35 @@ length: 4
 __proto__: Array(0)  //아직 몰라도됨
 ```
 
+## 객
+
+```javascript
+var 배열같은객체 = {
+    0: '코끼리',
+    1: '고양이',
+    2: '강아지',
+    3: '닭',
+    length: 4,
+}
+
+//결과값
+배열같은객체
+{0: "코끼리", 1: "고양이", 2: "강아지", 3: "닭", length: 4}
+0: "코끼리"
+1: "고양이"
+2: "강아지"
+3: "닭"
+length: 4
+__proto__: Object
+```
+
+## 배열인지 객체인지 확인
+
 ```javascript
 Array.isArray(배열)
 true
+Array.isArray(배열같은객체)
+false
 ```
 
 
