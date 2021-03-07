@@ -36,7 +36,7 @@ for(var star = 5; star >= 1; star -= 1) {
 star -= 1  
 star = star - 1
 
-## 문제
+## 문제1
 
 ```javascript
 **********    //10개
@@ -49,4 +49,23 @@ for(var star = 10; star >= 2; star -= 2) {
     console.log('*'.repeat(star))
 }
 ```
+
+## 문제2
+
+```javascript
+*                   // 1     
+**                  // 2개    
+****                // 4개    
+********            // 8개
+****************    //16개
+
+for(var star = 1; star <= 16; star *= 2) {
+    console.log('*'.repeat(star))
+}
+
+star
+32
+```
+
+
 
