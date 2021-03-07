@@ -2,8 +2,8 @@
 
 ## 객체
 
-함수\(function\(\) {}\)  
-배열
+* 함수\(function\(\) {}\)
+* 배열
 
 ```javascript
 var 몽실 = {
