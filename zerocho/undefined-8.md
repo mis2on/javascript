@@ -28,7 +28,7 @@ while(true) {    //컴퓨터 문제 무한반복 출제
         var answer = prompt(String(num1) + ' 곱하기 ' + String(num2) + ' 는?')
         if(result === Number(answer)) {
             alert('딩동댕')
-            조건 = false;    //답이 맞으면 대답하는 것을 멈추고 새문제
+            조건 = false;    //답이 맞으면 대답하는 것을 멈추고 새로운 문제
         } else {
             alert('떙')
         }
