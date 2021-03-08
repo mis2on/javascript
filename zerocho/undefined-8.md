@@ -23,12 +23,19 @@ while(true) {    //컴퓨터 문제 무한반복 출제
     var num1 = Math.floor(Math.random() * 9) + 1
     var num2 = Math.floor(Math.random() * 9) + 1
     var result = num1 * num2
-    var answer = prompt(String(num1) + ' 곱하기 ' + String(num2) + ' 는?')
-    if(result === Number(answer)) {
-        alert('딩동댕')
-    } else {
-        alert('떙')
+    var 조건 = true;
+    while(조건) {
+        var answer = prompt(String(num1) + ' 곱하기 ' + String(num2) + ' 는?')
+        if(result === Number(answer)) {
+            alert('딩동댕')
+            조건 = false;    //답이 맞으면 반복을 종료 
+        } else {
+            alert('떙')
+        }
     }
+    
 }
 ```
+
+
 
