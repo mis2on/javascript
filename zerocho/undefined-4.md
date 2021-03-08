@@ -117,7 +117,7 @@ for(var star = 9; star >= 1; star -= 2) {
   ***
    *
    
-for(star = 1; star) {
+for(var star = 0; star <= 4; star++) {
     console.log()
 }
 ```
