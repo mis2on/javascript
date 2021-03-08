@@ -17,5 +17,18 @@ if(result === Number(answer)) {
     alert('떙')
 }
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+while(true) {    //컴퓨터 문제 무한반복 출제
+    var num1 = Math.floor(Math.random() * 9) + 1
+    var num2 = Math.floor(Math.random() * 9) + 1
+    var result = num1 * num2
+    var answer = prompt(String(num1) + ' 곱하기 ' + String(num2) + ' 는?')
+    if(result === Number(answer)) {
+        alert('딩동댕')
+    } else {
+        alert('떙')
+    }
+}
 ```
 
