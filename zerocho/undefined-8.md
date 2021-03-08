@@ -10,7 +10,12 @@ Math.floor(Math.random() * 9) + 1    //구구단은 0단이 없기 때문에 1�
 var num1 = Math.floor(Math.random() * 9) + 1
 var num2 = Math.floor(Math.random() * 9) + 1
 var result = num1 * num2
-prompt(String(num1) + '곱하기' + String(num2) + '는?')
- 
+var answer = prompt(String(num1) + ' 곱하기 ' + String(num2) + ' 는?')
+if(result === Number(answer)) {
+    alert('딩동댕')
+} else {
+    alert('떙')
+}
+
 ```
 
