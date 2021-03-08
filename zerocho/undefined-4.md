@@ -118,7 +118,11 @@ for(var star = 9; star >= 1; star -= 2) {
    *
    
 for(var star = 0; star <= 4; star++) {
-    console.log()
+    console.log(' '.repeat(Math.abs(star-2)) + '*'.repeat(5-Math.abs(2*(star-2))))
+}
+
+for(var star = -2; star <= 2 ; star++){
+    console.log(' '.repeat(Math.abs(star))+'*'.repeat(5-(Math.abs(star)*2)));
 }
 ```
 
