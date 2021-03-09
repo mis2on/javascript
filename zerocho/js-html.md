@@ -1,6 +1,8 @@
 # js로 HTML 태그 만들기
 
-document 객체의 메서드를 사용해 HTML을 만들 수 있다.
+document 객체의 메서드를 사용해 HTML을 만들 수 있다.  
+createElement : 새로운 태그를 생성  
+append : 태그 추가
 
 ```javascript
 var 바디 = document.body;
