@@ -23,7 +23,7 @@
 * [window 객체](zerocho/untitled-1.md)
 * [document 객체와 DOM](zerocho/document-dom.md)
 * [script 태그 사용법](zerocho/script.md)
-* [js로 HTML 태그 만들기](zerocho/js-html.md)
+* [js로 HTML 태그만들고 화면 표시](zerocho/js-html.md)
 * [끝말잇기 화면에 표시](zerocho/undefined-9.md)
 * [이벤트리스너 맛보기](zerocho/undefined-10.md)
 * [구구단 화면 만들기](zerocho/undefined-11.md)

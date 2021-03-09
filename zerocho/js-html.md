@@ -1,4 +1,4 @@
-# js로 HTML 태그 만들기
+# js로 HTML 태그만들고 화면 표시
 
 document 객체의 메서드를 사용해 HTML을 만들 수 있다.  
 createElement : 새로운 태그를 생성  
