@@ -28,12 +28,30 @@ document.body.append(단어);
 var 입력창 = document.createElement('input');
 document.body.append(입력창);
 var 버튼 = document.createElement('button');
+버튼.textContent = '등록';
 document.body.append(버튼);
+var 결과창 = document.createElement('div');
+document.body.append();
 ```
 
 결과
 
-![](../.gitbook/assets/image%20%2818%29.png)
+```markup
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>끝말잇기</title>
+    </head>
+    <body>
+        <!--<div>몽실</div>-->
+        <!--<input type="text">-->
+        <!--<button>등록</button>-->
+        <!--<div>딩동댕</div>-->
+        <script src="끝말잇기.js"></script>
+    </body>
+</html>
+```
 
-이처럼 바스크립트로 html을 만들 수 있지만 효율적이지 못함 
+이처럼 자바스크립트로 html을 만들 수 있지만 효율적이지 못함 
 
