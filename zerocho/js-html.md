@@ -20,3 +20,16 @@ document.body.append();    //기억하고 있는 내용을 화면에 표시하�
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
+```javascript
+var 바디 = document.body;
+var 단어 = document.createElement('div');
+단어.textContent = '몽실';
+document.body.append(단어);
+var 입력창 = document.createElement('input');
+document.body.append(입력창);
+var 버튼 = document.createElement('button');
+document.body.append(버튼);
+```
+
+자바스크립트로 html을 만들 수 있지만 효율적이지 못
+
