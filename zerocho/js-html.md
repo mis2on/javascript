@@ -31,7 +31,7 @@ var 버튼 = document.createElement('button');
 버튼.textContent = '등록';
 document.body.append(버튼);
 var 결과창 = document.createElement('div');
-document.body.append();
+document.body.append(결과창);
 ```
 
 결과
