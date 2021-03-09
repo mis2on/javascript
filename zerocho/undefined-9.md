@@ -68,7 +68,7 @@ var 버튼 = document.createElement('button');
 var 결과창 = document.createElement('div');
 document.body.append(결과창);
 
-버튼.addEventListener('click', function 콜백함수 () {
+버튼.addEventListener('submit', function 콜백함수 () {    //click를 submit로 변경
     if(단어.textContent[단어.textContent.length - 1] === 입력창.value[0]){
         결과창.textContent = '딩동댕';
         입력창.value = '';    //맞으면 input 입력창을 빈 값으로 변경
@@ -80,4 +80,6 @@ document.body.append(결과창);
     }
 });
 ```
+
+결과! 페이지가 깜빡이며 새로고침됨
 
