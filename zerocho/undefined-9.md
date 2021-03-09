@@ -2,6 +2,8 @@
 
 반복되는 동작은 보통 함수로 만든다.
 
+enter기능x, 마우스로 입력버튼을 클릭해야
+
 ```javascript
 var 바디 = document.body;
 var 단어 = document.createElement('div');
