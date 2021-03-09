@@ -9,7 +9,7 @@ var 단어 = document.createElement('div');
 ////컴퓨터의 메모리 속에 기억만 하고 있
 ```
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 ```javascript
 var 바디 = document.body;
@@ -18,7 +18,7 @@ var 단어 = document.createElement('div');
 document.body.append();    //기억하고 있는 내용을 화면에 표시하기 위해 추가
 ```
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 ```javascript
 var 바디 = document.body;
@@ -31,5 +31,9 @@ var 버튼 = document.createElement('button');
 document.body.append(버튼);
 ```
 
-자바스크립트로 html을 만들 수 있지만 효율적이지 못
+결과
+
+![](../.gitbook/assets/image%20%2818%29.png)
+
+이처럼 바스크립트로 html을 만들 수 있지만 효율적이지 못함 
 

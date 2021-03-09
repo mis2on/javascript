@@ -5,7 +5,7 @@ window 객체안에 화면을 표시하는 document가 들어있다.
 window는 브라우저 전체  
 document는 페이지\(탭\)
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2819%29.png)
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
