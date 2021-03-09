@@ -6,7 +6,7 @@ document 객체의 메서드를 사용해 HTML을 만들 수 있다.
 var 바디 = document.body;
 var 단어 = document.createElement('div');
 단어.textContent = '몽실';
-////컴퓨터의 메모리 속에 기억만 하고 있
+////컴퓨터의 메모리 속에 기억만 하고 있다
 ```
 
 ![](../.gitbook/assets/image%20%2822%29.png)
