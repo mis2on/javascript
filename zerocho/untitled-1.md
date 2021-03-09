@@ -9,3 +9,11 @@ document는 페이지\(탭\)
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
+```javascript
+window.open() : 새창열
+open()    //window 생략가
+
+window.alert('경고창') : 경고창
+alert('경고창')    //window 생략가 
+```
+
