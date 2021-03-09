@@ -20,8 +20,13 @@ var name = '몽실'
 window.name
 "몽실" 
 
-function 반복() {
-    console.log('*'.repeat(
+function 반복(반복횟수) {
+    console.log('*'.repeat(반복횟수))
+}
+반복(5)
+*****
+반복(10)
+**********
 ```
 
 
