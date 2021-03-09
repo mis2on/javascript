@@ -28,7 +28,7 @@ document.body.append(단어);
 var 입력창 = document.createElement('input');
 document.body.append(입력창);
 var 버튼 = document.createElement('button');
-버튼.textContent = '등록';
+버튼.textContent = '입력';
 document.body.append(버튼);
 var 결과창 = document.createElement('div');
 document.body.append(결과창);
@@ -46,7 +46,7 @@ document.body.append(결과창);
     <body>
         <!--<div>몽실</div>-->
         <!--<input type="text">-->
-        <!--<button>등록</button>-->
+        <!--<button>입력</button>-->
         <!--<div>딩동댕</div>-->
         <script src="끝말잇기.js"></script>
     </body>
