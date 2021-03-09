@@ -11,9 +11,18 @@ document는 페이지\(탭\)
 
 ```javascript
 window.open() : 새창열
-open()    //window 생략가
+open()    //window 생략가능 
 
 window.alert('경고창') : 경고창
-alert('경고창')    //window 생략가 
+alert('경고창')    //window 생략가능
+
+var name = '몽실'
+window.name
+"몽실" 
+
+function 반복() {
+    console.log('*'.repeat(
 ```
+
+
 
