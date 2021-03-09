@@ -16,7 +16,7 @@ open()    //window 생략가능
 window.alert('경고창') : 경고창
 alert('경고창')    //window 생략가능
 
-1번 
+ㅡㅡㅡㅡㅡㅡ1번ㅡㅡㅡㅡ 
 var name = '몽실'
 window.name
 "몽실" 
@@ -29,6 +29,7 @@ function 반복(반복횟수) {
 반복(10)
 **********
 
+ㅡㅡㅡㅡㅡ2번ㅡㅡㅡㅡㅡ
 function 기억하세요(){
     var 몸무게 = 70;
 }
