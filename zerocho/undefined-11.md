@@ -25,6 +25,7 @@ document.body.append(단어);
 var 폼 = document.createElement('form');
 document.body.append(폼);
 var 입력창 = document.createElement('input');
+입력창.type = 'number'    //<input type="number"></input>
 폼.append(입력창);
 var 버튼 = document.createElement('button');
 버튼.textContent = '입력';
@@ -34,6 +35,9 @@ document.body.append(결과창);
 
 폼.addEventListener('submit', function 콜백함수 (e) {
     e.preventDefault();
+    if(결과 === 입력창.value) {
+        
+    }
 });
 ```
 
