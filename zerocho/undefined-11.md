@@ -25,7 +25,6 @@ document.body.append(단어);
 var 폼 = document.createElement('form');
 document.body.append(폼);
 var 입력창 = document.createElement('input');
-입력창.type = 'number';
 폼.append(입력창);
 var 버튼 = document.createElement('button');
 버튼.textContent = '입력';
@@ -35,7 +34,8 @@ document.body.append(결과창);
 
 폼.addEventListener('submit', function 콜백함수 (e) {
     e.preventDefault();
-    if(결과 === 입력창.value) {
+    //console.log(결과, 입력창.value);
+    if(결과 === Number(입력창.value)) {    //input type를 숫자로 변경
         결과창.textContent = '딩동댕';
         숫자1 = Math.ceil(Math.random() * 9);
         숫자2 = Math.ceil(Math.random() * 9);
