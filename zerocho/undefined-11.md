@@ -9,6 +9,5 @@ var 바디 = document.body;
 var 단어 = document.createElement('div');
 단어.textContent = String(숫자1) + ' 곱하기 ' + String(숫자2) + '는?';
 document.body.append(단어);
-ㅓ
 ```
 
