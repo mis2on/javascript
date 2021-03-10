@@ -25,7 +25,7 @@ document.body.append(단어);
 var 폼 = document.createElement('form');
 document.body.append(폼);
 var 입력창 = document.createElement('input');
-입력창.type = 'number'    //<input type="number"></input>
+입력창.type = 'number';
 폼.append(입력창);
 var 버튼 = document.createElement('button');
 버튼.textContent = '입력';
@@ -36,10 +36,23 @@ document.body.append(결과창);
 폼.addEventListener('submit', function 콜백함수 (e) {
     e.preventDefault();
     if(결과 === 입력창.value) {
-        
+        결과창.textContent = '딩동댕';
+        숫자1 = Math.ceil(Math.random() * 9);
+        숫자2 = Math.ceil(Math.random() * 9);
+        결과 = 숫자1 * 숫자2;
+        단어.textContent = String(숫자1) + ' 곱하기 ' + String(숫자2) + '는?';
+        입력창.value = '';
+        입력창.focus();
+    } else {
+        결과창.textContent = '땡땡땡';
+        입력창.value = '';
+        입력창.focus();
     }
 });
+
 ```
 
 이벤트리스너가 항상 반복문 역할은 하는 것은 아니다.
+
+자바스크립트로 화면html까지 만들어서 코드양이 많다.
 
