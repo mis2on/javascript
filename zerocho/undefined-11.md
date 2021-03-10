@@ -11,3 +11,5 @@ var 단어 = document.createElement('div');
 document.body.append(단어);
 ```
 
+![](../.gitbook/assets/image%20%2824%29.png)
+
