@@ -46,7 +46,6 @@ var 버튼 = document.createElement('button');
     e.preventDefault();
     var 답 = 입력창.value;
     console.log(답);
-    
 });
 ```
 
