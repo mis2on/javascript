@@ -39,7 +39,16 @@ var 버튼 = document.createElement('button');
         console.log(숫자배열);
 
     } else {//답이 틀리면
-        결과.textContent = '';
+        var 답배열 = 답.split('');
+        var 스트라이크 = 0;
+        var 볼 = 0;
+        for(var i = 0; i < 3; i += 1) {
+            if(답배열[i] === 숫자배열[i]) {
+                스트라이크++;
+            } else {
+                볼++;
+            }
+        }
     }
 });
 ```
