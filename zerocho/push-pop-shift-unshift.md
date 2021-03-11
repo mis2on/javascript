@@ -26,7 +26,7 @@ var 숫자후보 = [1,2,3,4,5,6,7,8,9];
 var 숫자배열 = [];
 
 for(var i = 0; i < 4; i += 1) {
-    var 뽑은것 = 숫자후보.splice(Math.floor(Math.random() * 9), 1)[0];
+    var 뽑은것 = 숫자후보.splice(Math.floor(Math.random() * (9 - i)), 1)[0];
     숫자배열.push(뽑은것);
 }
 console.log(숫자배열);
@@ -58,7 +58,7 @@ var 버튼 = document.createElement('button');
 .unshift\(\) : 배열의 맨 앞에 값을 추가  
 .push\(\) : 배열의 맨 끝에 값을 추가
 
-.splice\(위치 , 개수\) 위치로부터 개수만큼 배열에서 뽑는다.  
+.splice\(위치 , 개수\) 위치로부터 개수만큼 배열에서 뽑아 배열로 반  
 뽑고 나면 기존의 배열에서 값이 사라진다.  
   
 
