@@ -35,3 +35,12 @@ var 버튼 = document.createElement('button');
 });
 ```
 
+```javascript
+var 숫자배열 = [2, 8, 6, 9];
+String(숫자배열[0]) + String(숫자배열[1]) + String(숫자배열[2]) + String(숫자배열[3])
+"2869"
+```
+
+문자.split\(구분자\) -&gt; 배열  
+숫자.join\(구분자\) -&gt; 문자
+
