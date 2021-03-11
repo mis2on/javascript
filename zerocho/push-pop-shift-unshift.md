@@ -59,7 +59,6 @@ var 버튼 = document.createElement('button');
 .push\(\) : 배열의 맨 끝에 값을 추가
 
 .splice\(위치 , 개수\) 위치로부터 개수만큼 배열에서 뽑는다.  
-  
 뽑고 나면 기존의 배열에서 값이 사라진다.  
   
 
