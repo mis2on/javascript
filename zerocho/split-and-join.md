@@ -44,9 +44,9 @@ var 버튼 = document.createElement('button');
         var 볼 = 0;
         for(var i = 0; i < 3; i += 1) {
             if(답배열[i] === 숫자배열[i]) {
-                스트라이크++;
-            } else {
-                볼++;
+                스트라이크 += 1;
+            } else if(
+                볼 += 1;
             }
         }
     }
