@@ -36,7 +36,7 @@ var 결과 = document.createElement('h1');
 var 폼 = document.createElement('form');
 document.body.append(폼);
 var 입력창 = document.createElement('input');
-입력창.maxlength = 4;
+입력창.maxLength = 4;    //입력할 수 있는 최대 문자수
 폼.append(입력창);
 var 버튼 = document.createElement('button');
 버튼.textContent = '입력!';
