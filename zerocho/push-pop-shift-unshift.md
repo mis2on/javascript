@@ -1,4 +1,4 @@
-# 배열 push pop shift unshift
+# 배열 push pop shift unshift splice
 
 ```markup
 <!DOCTYPE html>
@@ -26,7 +26,7 @@ var 숫자후보 = [1,2,3,4,5,6,7,8,9];
 var 숫자배열 = [];
 
 for(var i = 0; i < 4; i += 1) {
-    var 뽑은것 = 숫자후보.pop();
+    var 뽑은것 = 숫자후보.splice(Math.floor(Math.random() * 9), 1)[0];
     숫자배열.push(뽑은것);
 }
 console.log(숫자배열);
