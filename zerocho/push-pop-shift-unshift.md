@@ -14,8 +14,27 @@
             <button>버튼</button>
         </form>
         <!-- srcipt -->
-        <script src="js/숫자야구.js"></script>
+        <script src="숫자야구.js"></script>
     </body>
 </html>
+```
+
+```javascript
+var 바디 = document.body;
+
+var 결과 = docuemnt.createElement('h1');
+바디.append(결과);
+var 폼 = document.createElement('form');
+document.body.append(폼);
+var 입력창 = document.createElement('input');
+폼.append(입력창);
+var 버튼 = document.createElement('button');
+버튼.textContent = '입력!';
+폼.append(버튼);
+
+폼.addEventListener('submit', function 콜백함수 (){//엔터를 쳤을 때
+
+
+});
 ```
 
