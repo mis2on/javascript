@@ -39,6 +39,10 @@ var 버튼 = document.createElement('button');
 var 숫자배열 = [2, 8, 6, 9];
 String(숫자배열[0]) + String(숫자배열[1]) + String(숫자배열[2]) + String(숫자배열[3])
 "2869"
+숫자배열.join('');
+"2869"
+숫자배열.join(',');    //인자로 ,를 넣으면
+"2,8,6,9"
 ```
 
 문자.split\(구분자\) -&gt; 배열  
