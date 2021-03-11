@@ -29,7 +29,7 @@ for(var i = 0; i < 4; i += 1) {
     var 뽑은것 = 숫자후보.pop();
     숫자배열.push(뽑은것);
 }
-consolo.log(숫자배열);
+console.log(숫자배열);
 
 var 결과 = docuemnt.createElement('h1');
 바디.append(결과);
@@ -52,8 +52,9 @@ var 버튼 = document.createElement('button');
 
 .shift\(\) : 처음것 뽑기  
 .pop\(\) : 마지막 것 뽑기  
-.unshift\(\) : 처음에 추가  
-.push\(\) : 마지막에 추가  
+  
+.unshift\(\) : 배열의 맨 앞에 값을 추가  
+.push\(\) : 배열의 맨 끝에 값을 추가  
   
 
 
