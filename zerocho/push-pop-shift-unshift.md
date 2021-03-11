@@ -22,6 +22,15 @@
 ```javascript
 var 바디 = document.body;
 
+var 숫자후보 = [1,2,3,4,5,6,7,8,9];
+var 숫자배열 = [];
+
+for(var i = 0; i < 4; i += 1) {
+    var 뽑은것 = 숫자후보.pop();
+    숫자배열.push(뽑은것);
+}
+consolo.log(숫자배열);
+
 var 결과 = docuemnt.createElement('h1');
 바디.append(결과);
 var 폼 = document.createElement('form');
@@ -40,4 +49,8 @@ var 버튼 = document.createElement('button');
 
 그룹으로 묶어질 수 있는 것들은 배열이나 객체를 사용  
 변수를 너무 많이 사용하면 코드가 지저분하기 때문에 배열이나 객체로 묶어주면 좋다.
+
+.pop\(\)
+
+.push\(\)
 
