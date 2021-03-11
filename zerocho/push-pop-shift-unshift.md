@@ -58,7 +58,9 @@ var 버튼 = document.createElement('button');
 .unshift\(\) : 배열의 맨 앞에 값을 추가  
 .push\(\) : 배열의 맨 끝에 값을 추가
 
-.splice\(몇번째자리부터 , 자리수\) :  
+.splice\(몇번째자리부터 , 자리수\)  
+  
+뽑고 나면 기존의 배열에서 값이 사라진다.  
   
 
 
