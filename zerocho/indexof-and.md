@@ -91,6 +91,7 @@ var 입력창 = document.createElement('input');
 var 버튼 = document.createElement('button');
 버튼.textContent = '입력!';
 폼.append(버튼);
+var 틀린횟수 = 0;
 
 폼.addEventListener('submit', function 비동기(e) {//엔터를 쳤을 때
     e.preventDefault();
@@ -112,7 +113,7 @@ var 버튼 = document.createElement('button');
         var 스트라이크 = 0;
         var 볼 = 0;
         틀린횟수 += 1;
-        if(틀린횟수 > 10) {
+        if(틀린횟수 > 4) {
             결과.textContent = '10번 넘게 틀려서 실패! 답은' + 숫자배열.join('') + '였습니다.'; //10번이상 틀리면 답을 공개
             입력창.value = '';
             입력창.focus();
@@ -123,7 +124,7 @@ var 버튼 = document.createElement('button');
                 숫자배열.push(뽑은것);
             }
             틀린횟수 = 0;
-        }
+        } else {
         console.log('답이틀리면', 답배열);
         for(var i = 0; i < 3; i += 1) {
             if(Number(답배열[i]) === 숫자배열[i]) {//같은위치에 같은값이 있는지 확인
@@ -137,9 +138,10 @@ var 버튼 = document.createElement('button');
         결과.textContent = 스트라이크 + '스트라이크 ' + 볼 + '볼입니다.';
         입력창.value = '';
         입력창.focus();
+        }
     }
 });
 ```
 
-## 답변할 때마다 기회가 몇 번 남았는지 표시해 보기
+## 문답\) 변할 때마다 기회가 몇 번 남았는지 표시해 보기
 
