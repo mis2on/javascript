@@ -141,3 +141,5 @@ var 버튼 = document.createElement('button');
 });
 ```
 
+## 답변할 때마다 기회가 몇 번 남았는지 표시해 보기
+
