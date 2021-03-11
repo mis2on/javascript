@@ -10,7 +10,7 @@ for(var i = 0; i < 4; i += 1) {
     var 뽑은것 = 숫자후보.splice(Math.floor(Math.random() * (9 - i)), 1)[0];
     숫자배열.push(뽑은것);
 }
-// console.log(숫자배열);
+console.log(숫자배열);
 
 var 결과 = document.createElement('h1');
 바디.append(결과);
@@ -26,11 +26,12 @@ var 버튼 = document.createElement('button');
 폼.addEventListener('submit', function 비동기(e) {//엔터를 쳤을 때
     e.preventDefault();
     var 답 = 입력창.value;
-    console.log(답, 숫자배열, 답 === 숫자배열);
-    if(답 === 숫자배열) {//답이 맞으면
-
+    if(답 === 숫자배열.join('')) {//답이 맞으면
+        결과.textContent = '홈런';
+        입력창.value = '';
+        입력창.focus();
     } else {//답이 틀리면
-
+        결과.textContent = '';
     }
 });
 ```
