@@ -63,6 +63,6 @@ console.log('줄들', 줄들, '칸들', 칸들);
 
 컴퓨터는 0부터 시작하기 때문에 0번째줄 0번째칸으로 시작!
 
-input의 값 value  
-태그 안 글자는 textContent
+input의 값 .value  
+태그 안 글자는 .textContent
 
