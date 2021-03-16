@@ -16,8 +16,8 @@ var 테이블 = document.createElement('table');
 var 줄들 = [];
 var 칸들 = [];
 
-var 비동기콜백 = function(이벤트) {
-    console.log(이벤트.target);
+var 비동기콜백 = function(e) {
+    console.log(e.target);
 };
 
 for(var i = 1; i <= 3; i += 1) {
