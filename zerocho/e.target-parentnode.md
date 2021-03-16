@@ -28,6 +28,8 @@ var 비동기콜백 = function(이벤트) {
 
     var 몇줄 = 줄들.indexOf(이벤트.target.parentNode);
     console.log('몇줄', 몇줄);
+    var 몇칸 = 칸들[몇줄].indexOf(이벤트.target);
+    console.log('몇칸', 몇칸);
 };
 
 for(var i = 1; i <= 3; i += 1) {
@@ -45,4 +47,6 @@ for(var i = 1; i <= 3; i += 1) {
 바디.appendChild(테이블);
 console.log('줄들', 줄들, '칸들', 칸들);
 ```
+
+컴퓨터는 0부터 시작하기 때문에 0번째줄 0번째칸으로 시작!
 
