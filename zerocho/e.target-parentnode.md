@@ -30,6 +30,12 @@ var 비동기콜백 = function(이벤트) {
     console.log('몇줄', 몇줄);
     var 몇칸 = 칸들[몇줄].indexOf(이벤트.target);
     console.log('몇칸', 몇칸);
+    
+    if(칸들[몇칸][몇줄].value !== '') {//칸이 이미 채워져 있는가? 빈칸이 아니면
+        console.log('빈칸아닙니다.');
+    } else {
+        console.log('빈칸입니다.');
+    }
 };
 
 for(var i = 1; i <= 3; i += 1) {
@@ -49,4 +55,7 @@ console.log('줄들', 줄들, '칸들', 칸들);
 ```
 
 컴퓨터는 0부터 시작하기 때문에 0번째줄 0번째칸으로 시작!
+
+input의 값 value  
+태그 안 글자는 textContent
 
