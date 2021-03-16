@@ -4,6 +4,8 @@
 순서도를 작성해보자!  
 
 
+![](../.gitbook/assets/image%20%2826%29.png)
+
 
 
 
