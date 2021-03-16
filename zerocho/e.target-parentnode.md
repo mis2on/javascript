@@ -23,16 +23,16 @@ var 칸들 = [];
 var 턴 = 'X';
 
 var 비동기콜백 = function(이벤트) {
-    console.log(이벤트.target); //칸
-    console.log(이벤트.target.parentNode);  //줄
-    console.log(이벤트.target.parentNode.parentNode);   //테이블
+    console.log(이벤트.target);    //칸
+    console.log(이벤트.target.parentNode);    //줄
+    console.log(이벤트.target.parentNode.parentNode);    //테이블
 
     var 몇줄 = 줄들.indexOf(이벤트.target.parentNode);
     console.log('몇줄', 몇줄);
     var 몇칸 = 칸들[몇줄].indexOf(이벤트.target);
     console.log('몇칸', 몇칸);
 
-    if(칸들[몇줄][몇칸].textContent !== undefined) {  //칸이 이미 채워져 있는가?
+    if(칸들[몇줄][몇칸].textContent !== undefined) { //칸이 이미 채워져 있는가?
         console.log('빈칸아닙니다.');
         칸들[몇줄][몇칸].textContent = 턴;
         if(턴 === 'X') {
