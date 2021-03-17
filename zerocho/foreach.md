@@ -19,6 +19,7 @@ forEach
 4
 5
 
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 칸들.forEach(function (줄){
     console.log(줄);
