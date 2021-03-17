@@ -37,7 +37,7 @@ forEach
 
 ![](../.gitbook/assets/image%20%2832%29.png)
 
-## 초기화
+## 초기화, 콘솔이 아닌 화면에 결과표시하기
 
 ```javascript
 var 바디 = document.body;
@@ -45,6 +45,7 @@ var 테이블 = document.createElement('table');
 var 줄들 = [];
 var 칸들 = [];
 var 턴 = 'X';
+var 결과 = document.createElement('div');
 
 var 비동기콜백 = function(이벤트) {
     var 몇줄 = 줄들.indexOf(이벤트.target.parentNode);
@@ -95,7 +96,7 @@ var 비동기콜백 = function(이벤트) {
     
     // 다 찼으면
     if(다참) {
-        console.log(턴 + '님이 승리!');
+        결과.textContent = (턴 + '님이 승리!');
         //초기화
         턴 = 'X';
         칸들.forEach(function(줄){
