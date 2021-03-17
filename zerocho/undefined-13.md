@@ -8,10 +8,6 @@ var 칸들 = [];
 var 턴 = 'X';
 
 var 비동기콜백 = function(이벤트) {
-    console.log(이벤트.target); //칸
-    console.log(이벤트.target.parentNode);  //줄
-    console.log(이벤트.target.parentNode.parentNode);   //테이블
-
     var 몇줄 = 줄들.indexOf(이벤트.target.parentNode);
     console.log('몇줄', 몇줄);
     var 몇칸 = 칸들[몇줄].indexOf(이벤트.target);
@@ -28,14 +24,16 @@ var 비동기콜백 = function(이벤트) {
     if(
         칸들[몇줄][0].textContent === 턴 && 
         칸들[몇줄][1].textContent === 턴 && 
-        칸들[몇줄][2].textContent === 턴) {
+        칸들[몇줄][2].textContent === 턴
+    ) {
         다참 = true;
     }
     //세로줄 검사
     if(
         칸들[0][몇칸].textContent === 턴 && 
         칸들[1][몇칸].textContent === 턴 && 
-        칸들[2][몇칸].textContent === 턴) {
+        칸들[2][몇칸].textContent === 턴
+    ) {
         다참 = true;
     }
     //대각선 검사
@@ -43,12 +41,11 @@ var 비동기콜백 = function(이벤트) {
         if(
             칸들[0][0].textContent === 턴 &&
             칸들[1][1].textContent === 턴 &&
-            칸들[2][2].textContent === 턴) {
+            칸들[2][2].textContent === 턴
+        ) {
             다참 = true;
-            }
-        다참 = true;
+        }
     }  
-    }
     
     // 다 찼으면
     if(다참) {
@@ -59,6 +56,7 @@ var 비동기콜백 = function(이벤트) {
         } else {
             턴 = 'X';
         }
+    }
     }
 };
 
