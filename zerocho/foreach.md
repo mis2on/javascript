@@ -77,7 +77,7 @@ var 비동기콜백 = function(이벤트) {
         다참 = true;
     }
     //대각선 검사
-    if(몇줄 - 몇칸 === 0 || Math.abs(몇줄 + 몇칸) === 2) { //대각선 검사 필요한 경우
+    if(몇줄 - 몇칸 === 0) { //대각선 검사 필요한 경우
         if(
             칸들[0][0].textContent === 턴 &&
             칸들[1][1].textContent === 턴 &&
@@ -85,6 +85,8 @@ var 비동기콜백 = function(이벤트) {
         ) {
             다참 = true;
         }
+    }
+    if(Math.abs(몇줄 - 몇칸) === 2){
         if(
             칸들[0][2].textContent === 턴 &&
             칸들[1][1].textContent === 턴 &&
@@ -99,8 +101,8 @@ var 비동기콜백 = function(이벤트) {
         결과.textContent = 턴 + '님이 승리!';
         //초기화
         턴 = 'X';
-        칸들.forEach(function(줄){
-            줄.forEach(function(칸){
+        칸들.forEach(function(줄){    //1차원
+            줄.forEach(function(칸){    //2차원
                 칸.textContent = '';
             });
         });
