@@ -30,7 +30,7 @@ console.log(필);
 필.forEach(function(요소, 인덱스){    //두번째 파라미터,매개변수로 인덱스
     console.log(요소, 인덱스);
 });
-undefined 0
+undefined 0    //요소 인덱스 짝지어 나옴
 undefined 1
 undefined 2
 undefined 3
