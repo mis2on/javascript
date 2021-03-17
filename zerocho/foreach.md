@@ -27,5 +27,13 @@ forEach
 (3) [td, td, td]
 (3) [td, td, td]
 (3) [td, td, td]
+
+칸들.forEach(function (줄){    //1차원
+    줄.forEach(function(칸){    //2차원
+    console.log(칸);
+    });
+});
 ```
+
+
 
