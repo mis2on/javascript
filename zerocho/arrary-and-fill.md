@@ -32,48 +32,49 @@ console.log(필);
 });
 undefined 0
 undefined 1
-undefined 22 undefined 3
-VM6200:2 undefined 4
-VM6200:2 undefined 5
-VM6200:2 undefined 6
-VM6200:2 undefined 7
-VM6200:2 undefined 8
-VM6200:2 undefined 9
-VM6200:2 undefined 10
-VM6200:2 undefined 11
-VM6200:2 undefined 12
-VM6200:2 undefined 13
-VM6200:2 undefined 14
-VM6200:2 undefined 15
-VM6200:2 undefined 16
-VM6200:2 undefined 17
-VM6200:2 undefined 18
-VM6200:2 undefined 19
-VM6200:2 undefined 20
-VM6200:2 undefined 21
-VM6200:2 undefined 22
-VM6200:2 undefined 23
-VM6200:2 undefined 24
-VM6200:2 undefined 25
-VM6200:2 undefined 26
-VM6200:2 undefined 27
-VM6200:2 undefined 28
-VM6200:2 undefined 29
-VM6200:2 undefined 30
-VM6200:2 undefined 31
-VM6200:2 undefined 32
-VM6200:2 undefined 33
-VM6200:2 undefined 34
-VM6200:2 undefined 35
-VM6200:2 undefined 36
-VM6200:2 undefined 37
-VM6200:2 undefined 38
-VM6200:2 undefined 39
-VM6200:2 undefined 40
-VM6200:2 undefined 41
-VM6200:2 undefined 42
-VM6200:2 undefined 43
-VM6200:2 undefined 44
+undefined 2
+undefined 3
+undefined 4
+undefined 5
+undefined 6
+undefined 7
+undefined 8
+undefined 9
+undefined 10
+undefined 11
+undefined 12
+undefined 13
+undefined 14
+undefined 15
+undefined 16
+undefined 17
+undefined 18
+undefined 19
+undefined 20
+undefined 21
+undefined 22
+undefined 23
+undefined 24
+undefined 25
+undefined 26
+undefined 27
+undefined 28
+undefined 29
+undefined 30
+undefined 31
+undefined 32
+undefined 33
+undefined 34
+undefined 35
+undefined 36
+undefined 37
+undefined 38
+undefined 39
+undefined 40
+undefined 41
+undefined 42
+undefined 43
+undefined 44
 undefined
 
 ```
