@@ -12,6 +12,5 @@ forEach 대신 map을 사
 필.map(요소, 인덱스) {
     return 인덱스 + 1;
 });
-console.log(필);
 ```
 
