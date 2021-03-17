@@ -28,7 +28,7 @@ console.log(필);
 
 //1부터 45까지 넣는방법
 필.forEach(function(요소, 인덱스){    //두번째 매개변수로 인덱스
-    console.log(요소,   인덱스)
+    console.log(요소, 인덱스);
 });
 ```
 
