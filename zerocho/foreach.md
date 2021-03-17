@@ -18,5 +18,13 @@ forEach
 3
 4
 5
+
+
+칸들.forEach(function (줄){
+    console.log(줄);
+});
+(3) [td, td, td]
+(3) [td, td, td]
+(3) [td, td, td]
 ```
 
