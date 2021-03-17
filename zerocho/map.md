@@ -39,8 +39,8 @@ console.log();
 
 ↓줄여보기
 var 후보군 = Array(45)
-.fill()
-.map(function(요소, 인덱스) {
+  .fill()
+  .map(function(요소, 인덱스) {
     return 인덱스 + 1;
 });
 console.log(후보군);
