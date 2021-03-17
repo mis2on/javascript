@@ -15,12 +15,18 @@ var 후보군 = Array(45);    //45개 들어갈 수 있는 빈공간을 만듬
 ★empty의 특징  
 반복문 불가!
 
+## fill
+
+fill 메서드는 IE에서는 안됨!
+
 ```javascript
 var 후보군 = Array(45); 
 var 필 = 후보군.fill();
 console.log(필);
 
 (45) [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]
+
+1부터 
 ```
 
 ## 자바스크립트로 CSS 조작법
