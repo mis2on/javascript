@@ -7,7 +7,7 @@ Array\(숫자\)를 이용해 배열을 만드는 방법도 있다. 하지만 추
 
 ```javascript
 var 후보군 = Array(45);    //45개 들어갈 수 있는 빈공간을 만듬
-[undefined, undefined, undefined].forEach(function(요소)
+[undefined, undefined, undefined].forEach(function(요소){
     console.log(요소)
 });
 ```
@@ -15,7 +15,10 @@ var 후보군 = Array(45);    //45개 들어갈 수 있는 빈공간을 만듬
 ★empty의 특징  
 반복문 불가!
 
-
+```javascript
+var 후보군 = Array(45); 
+var 필 = 후보군.fill();
+```
 
 ## 자바스크립트로 CSS 조작법
 
