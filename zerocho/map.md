@@ -46,3 +46,9 @@ var 후보군 = Array(45)
 console.log(후보군);
 ```
 
+## 6개 뽑기
+
+```javascript
+var 셔플 = [];
+```
+
