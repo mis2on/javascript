@@ -26,7 +26,7 @@ console.log(필);
 
 (45) [undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined, undefined]
 
-1부터 
+//1부터 45까지 넣는방법
 ```
 
 ## 자바스크립트로 CSS 조작법
