@@ -96,7 +96,7 @@ var 비동기콜백 = function(이벤트) {
     
     // 다 찼으면
     if(다참) {
-        결과.textContent = (턴 + '님이 승리!');
+        결과.textContent = 턴 + '님이 승리!';
         //초기화
         턴 = 'X';
         칸들.forEach(function(줄){
