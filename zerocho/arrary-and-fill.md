@@ -18,6 +18,7 @@ var 후보군 = Array(45);    //45개 들어갈 수 있는 빈공간을 만듬
 ```javascript
 var 후보군 = Array(45); 
 var 필 = 후보군.fill();
+console.log(필)
 ```
 
 ## 자바스크립트로 CSS 조작법
