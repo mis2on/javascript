@@ -35,7 +35,7 @@ forEach
 });
 ```
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 ## 초기화, 콘솔이 아닌 화면에 결과표시하기
 
