@@ -8,7 +8,7 @@ Array\(숫자\)를 이용해 배열을 만드는 방법도 있다. 하지만 추
 ```javascript
 var 후보군 = Array(45);    //45개 들어갈 수 있는 빈공간을 만듬
 [undefined, undefined, undefined].forEach(function(요소)
-    console.log()
+    console.log(요소)
 });
 ```
 
