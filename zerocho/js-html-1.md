@@ -41,7 +41,7 @@ var 결과창 = document.getElementById('결과창');  //id로 찾아 선택
 for(var i = 0; i < 당첨숫자들.length; i += 1){
     var 공 = document.createElement('div');
     공.textContent = 당첨숫자들[i];
-    결과창.appendChild(공);
+    결과창.appendChild();
 }
 ```
 
