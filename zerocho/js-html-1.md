@@ -45,10 +45,10 @@ for(var i = 0; i < 당첨숫자들.length; i += 1){
     결과창.appendChild();
 }
 
-var 보너스칸 = document.getElementsByClassName('보너스');    //class로 찾아 선택
+var 보너스칸 = document.getElementsByClassName('보너스')[0];    //class로 찾아 선택
     var 공 = document.createElement('div');
     공.textContent = 보너스;
-    결과창.appendChild(공);
+    보너스칸.appendChild();
 ```
 
 ## id로 찾기
@@ -60,4 +60,8 @@ var 보너스칸 = document.getElementsByClassName('보너스');    //class로 �
 .getElementsByTagName\(\);
 
 ## class로 찾기
+
+.getElementsByClassName\('클래스명'\)\[0\];
+
+class는 여러번 쓰일 수 있기 때문에 뒤에 숫자를 붙여 몇번째 class인지 지정
 
