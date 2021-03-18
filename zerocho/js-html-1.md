@@ -42,13 +42,13 @@ var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
 for(var i = 0; i < 당첨숫자들.length; i += 1){
     var 공 = document.createElement('div');
     공.textContent = 당첨숫자들[i];
-    결과창.appendChild();
+    결과창.appendChild(공);
 }
 
 var 보너스칸 = document.getElementsByClassName('보너스')[0];    //class로 찾아 선택
     var 공 = document.createElement('div');
-    공.textContent = 보너스;
-    보너스칸.appendChild();
+    보너스공.textContent = 보너스;
+    보너스칸.appendChild(보너스공);
 ```
 
 ## id로 찾기
