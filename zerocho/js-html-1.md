@@ -35,9 +35,13 @@ var 보너스 = 셔플[셔플.length - 1]; //셔플 중 마지막자리 숫자 �
 var 당첨숫자들 = 셔플.slice(0, 6);
 console.log('당첨숫자들', 당첨숫자들.sort(function(b, c) {
     return c - b; }), '보너스', 보너스);
+    
+var 결과창 = document.getElementById('결과창');  //id로 찾아 선택
+
 for(var i = 0; i < 당첨숫자들.length; i += 1){
     var 공 = document.createElement('div');
-    공.textContent = 당첨된숫자들[i];
+    공.textContent = 당첨숫자들[i];
+    결과창.appendChild(공);
 }
 ```
 
