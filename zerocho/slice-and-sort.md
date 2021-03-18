@@ -29,7 +29,8 @@ sort 안에 함수를 추가
 
 ```javascript
 console.log('당첨숫자들', 당첨숫자들.sort(function(b, c) {
-    return b - c;} ), '보너스', 보너스)
+    return b - c;
+}), '보너스', 보너스)
 당첨숫자들 (6) [8, 17, 22, 24, 39, 42] 보너스 1
 ```
 
@@ -39,7 +40,8 @@ console.log('당첨숫자들', 당첨숫자들.sort(function(b, c) {
 
 ```javascript
 console.log('당첨숫자들', 당첨숫자들.sort(function(b,c) {
-    return c - b;} ), '보너스', 보너스)
+    return c - b;
+    }), '보너스', 보너스)
 당첨숫자들 (6) [45, 40, 19, 8, 6, 1] 보너스 4
 ```
 
