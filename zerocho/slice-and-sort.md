@@ -36,7 +36,7 @@ console.log('당첨숫자들', 당첨숫자들.sort(function(b, c) {
 
 ## 내림차순으로 정렬
 
-뺀 결과가 0보다 크면 순서를 바꾼다.
+뺀 결과가 0보다 크면 순서를 바꾼다. 0보다 작으면 순서를 바꾸지 않는다.
 
 ```javascript
 console.log('당첨숫자들', 당첨숫자들.sort(function(b,c) {
