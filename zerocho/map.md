@@ -60,7 +60,8 @@ var 셔플 = [];
 while(후보군.length > 0) {
   var 이동값 = 후보군.splice(Math.floor(Math.random() * 후보군.length), 1)[0];
   //splice 랜덤한 자리수에서 1개를 뽑는것
-  셔플.push(이동값)
+  셔플.push(이동값);
+  //후보군이 다 사라질때까지 셔플에 push
 } 
 ```
 
