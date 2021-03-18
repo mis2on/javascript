@@ -86,7 +86,7 @@ console.log('당첨숫자들', 당첨숫자들.sort(function(b, c) {
 var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
 
 for(var i = 0; i < 당첨숫자들.length; i += 1){
-    setTimeout(function 콜백함수(){
+    setTimeout(function 비동콜백함수(){
         var 공 = document.createElement('div');
         공.textContent = 당첨숫자들[i];
         결과창.appendChild(공);
