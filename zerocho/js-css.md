@@ -187,7 +187,19 @@ var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
     }, 7000);
     
 
-//↑ 반복이 너무 많아...
+//↑ 반복이 너무 많아... 함수를 만들어 줄여볼까?
+
+function 공색칠하기(숫자) {
+        공.textContent = 당첨숫자들[5];
+        공.style.display = 'inline-block';
+        공.style.border = '1px solid black';
+        공.style.borderRadius = '50%';
+        공.style.width = '50px';
+        공.style.height = '50px';
+        공.style.textAlign = 'center';
+        공.style.lineHeight = '50px';
+        결과창.appendChild(공);
+}
 
 ```
 
