@@ -41,3 +41,11 @@ for(var i = 0; i < 당첨숫자들.length; i += 1){
 }
 ```
 
+## id로 찾기
+
+.getElementById\('아이디명'\);
+
+## 태그 이름으로 찾기
+
+.getElementsByTagName\(\);
+
