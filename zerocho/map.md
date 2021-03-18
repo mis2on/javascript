@@ -62,7 +62,8 @@ while(후보군.length > 0) {
   //splice 랜덤한 자리수에서 1개를 뽑는것
   셔플.push(이동값);
   //후보군이 다 사라질때까지 셔플에 push
-} 
+}
+console.log(셔플);
 ```
 
 for문과 while문 차이  
