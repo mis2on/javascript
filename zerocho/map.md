@@ -58,11 +58,14 @@ console.log(후보군);
 
 var 셔플 = [];
 while(후보군.length > 0) {
-
+  후보군.splice(Math.floor(Math.random() * 후보군.length), 1);
+//splice 랜덤한 자리수에서 1개를 뽑는것
 } 
 ```
 
 for문과 while문 차이  
 for문은 자신이 정확하게 몇 번 반복해야할지 알때  
 while문 몇번 반복문을 돌아야할 지 모를, 기준값\(후보군.length\)이 계속 바뀔때
+
+실제 서비스에서는 .random을 사용하면 안된다.
 
