@@ -49,6 +49,20 @@ console.log(후보군);
 ## 6개 뽑기\(1~ 45까지 랜덤하게 섞고 앞에서 6개 또는 뒤에서 6개뽑기\)
 
 ```javascript
+var 후보군 = Array(45)
+  .fill()
+  .map(function(요소, 인덱스) {
+    return 인덱스 + 1;
+});
+console.log(후보군);
+
 var 셔플 = [];
+while(후보군.length > 0) {
+
+} 
 ```
+
+for문과 while문 차이  
+for문은 자신이 정확하게 몇 번 반복해야할지 알때  
+while문 몇번 반복문을 돌아야할 지 모를, 기준값\(후보군.length\)이 계속 바뀔때
 
