@@ -64,3 +64,9 @@ var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
     }, 7000);
 ```
 
+## JS로 CSS 조자
+
+```javascript
+공.style.display = 'inline-block';
+```
+
