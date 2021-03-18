@@ -1,7 +1,7 @@
 # forEach와 중첩 반복문
 
  누군가 승리를 하면 판을 초기화  
-forEach
+forEach : for과 마찬가지로 반복적인 기능을 수행할 때 사용
 
 
 
