@@ -55,6 +55,7 @@ function 공색칠하기(숫자, 결과창) {
     공.style.textAlign = 'center';
     공.style.lineHeight = '35px';
     공.style.marginRight = '10px';
+    공.id = '공아이디' + 숫자;
     var 테두리색;
     if(숫자 <= 10) {
         테두리색 = 'red';
@@ -96,5 +97,11 @@ function 공색칠하기(숫자, 결과창) {
         공색칠하기(보너스, 칸);
     }, 7000);
 
+```
+
+```javascript
+공.id = '공아이디' + 숫자;
+
+<div id="공아이디34">34</div>
 ```
 
