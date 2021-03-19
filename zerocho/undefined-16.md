@@ -8,14 +8,14 @@
 
 ```javascript
 var left = 0;
-var dictionary = {
+var 딕셔너리 = {
     바위 : '0',
     가위 : '-142px',
     보 : '-284px'
 };
 
 setInterval(function() {
-    if(left === 0) {
+    if(left === 딕셔너리.바위) {
         left = '-142px';
     } else if(left === '-142px') {
         left = '-284px';
