@@ -66,6 +66,10 @@ var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
 
 ## JS로 CSS 조작
 
+-부분을 없애고 첫글자 대문자로!  
+border-radiut → borderRadius  
+text-aglin → textAlign
+
 ```javascript
 공.style.display = 'inline-block';
 공.style.border = '1px solid black';
