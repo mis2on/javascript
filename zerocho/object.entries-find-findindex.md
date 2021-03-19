@@ -1,5 +1,7 @@
 # Object.entries, find, findIndex
 
+object.entries\(객체\)로 객체를 배열로 바꿀 수 있다.
+
 ```javascript
 var 컴퓨터의선택 = 0;
 var 가위바위보 = {  //딕셔너리 자료구조
