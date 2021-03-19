@@ -71,12 +71,16 @@ setInterval(function() {
 }, 100);
 
 
-for(var i = 0; i < document.querySelectorAll('.btn'); i += 1) {
-    document.querySelectorAll('.btn')[i].addEventListener('click', function() {
+document.querySelectorAll('.btn').forEach(function(btn){
+    btn.addEventListener('click', function() {
+        console.log(this.textContent);
     });
-}
+});
 ```
 
 바위,가위,보 버튼을 모두 선택하기위해 querySelectorAll을 사용!  
-querySelectorAll은 반복문을 돌면서 addeventListener과 연결해줘야한다...
+querySelectorAll은 forEach를 써서 addEventListener과 연결해 줘야한다.  
+개발자 도구 Event Listeners에서 확인가능
+
+![](../.gitbook/assets/image%20%2834%29.png)
 
