@@ -276,3 +276,13 @@ function 공색칠하기(숫자) {
 
 ```
 
+var 공 = document.createElement\('div'\);  
+공.textContent = 당첨숫자들\[숫자\];
+
+var 칸 = document.getElementsByClassName\('보너스'\)\[0\];   
+공.textContent = 보너스;
+
+서로 다른 부분은 매개변수에
+
+
+
