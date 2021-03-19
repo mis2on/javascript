@@ -47,9 +47,9 @@ setInterval(function() {
     <body>
         <div id="computer"></div>
         <div>
-            <button id="rock">바위</button>
-            <button id="scissor">가위</button>
-            <button id="paper">보</button>
+            <button id="rock" class="btn">바위</button>
+            <button id="scissor" class="btn">가위</button>
+            <button id="paper" class="btn">보</button>
         </div>
         <script src="가위바위보.js"></script>
     </body>
@@ -57,17 +57,6 @@ setInterval(function() {
 ```
 
 ```javascript
-var left = 0;
-setInterval(() => {
-    if(left === 0) {
-        left = '-142px';
-    } else if(left === '-142px') {
-        left = '-284px';
-    } else {
-        left = 0;
-    }
-    document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + '0';
-}, 100);
 var left = 0;
 setInterval(function() {
     if(left === 0) {
@@ -77,7 +66,17 @@ setInterval(function() {
     } else {
         left = 0;
     }
-    document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + ' 0';
+    document.querySelector('#computer').style.background = 
+    'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + ' 0';
 }, 100);
+
+
+for(var i = 0; i < document.querySelectorAll('.btn'); i += 1) {
+    document.querySelectorAll('.btn')[i].addEventListener('click', function() {
+    });
+}
 ```
+
+바위,가위,보 버튼을 모두 선택하기위해 querySelectorAll을 사용!  
+querySelectorAll은 반복문을 돌면서 eventListener과 연결해줄 수 있다..
 
