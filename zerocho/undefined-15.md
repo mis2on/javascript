@@ -24,5 +24,5 @@ setInterval(function() {
 
 ## setInterval
 
-
+일정시간 간격으로 코드를 반복 실행
 
