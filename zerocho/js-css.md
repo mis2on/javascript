@@ -64,7 +64,7 @@ var 결과창 = document.getElementById('결과창');    //id로 찾아 선택
     }, 7000);
 ```
 
-## JS로 CSS 조
+## JS로 CSS 조작
 
 ```javascript
 공.style.display = 'inline-block';
@@ -282,7 +282,7 @@ var 공 = document.createElement\('div'\);
 var 칸 = document.getElementsByClassName\('보너스'\)\[0\];   
 공.textContent = 보너스;
 
-서로 다른 부분은 매개변수로 만들어
+겹치는 부분은 함수로 만들되 서로 다른 부분은 매개변수로 만들어 코드 줄이기
 
 ```javascript
 var 후보군 = Array(45)
