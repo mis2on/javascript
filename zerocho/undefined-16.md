@@ -7,7 +7,7 @@
 1:1 매칭을 표현
 
 ```javascript
-var 컴퓨터의선 = 0;
+var 컴퓨터의선택 = 0;
 var 딕셔너리 = {
     바위 : '0',
     가위 : '-142px',
@@ -17,10 +17,10 @@ var 딕셔너리 = {
 setInterval(function() {
     if(컴퓨터의선택 === 딕셔너리.바위) {
         컴퓨터의선택 = 딕셔너리.가위;
-    } else if(컴퓨터 === 딕셔너리.가위) {
-        컴퓨터 = 딕셔너리.보;
+    } else if(컴퓨터의선택 === 딕셔너리.가위) {
+        컴퓨터의선택 = 딕셔너리.보;
     } else {
-        컴퓨터 = 딕셔너리.바위;
+        컴퓨터의선택 = 딕셔너리.바위;
     }
     document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + ' 0';
 }, 100);
