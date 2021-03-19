@@ -30,3 +30,54 @@ setInterval(function() {
 
 지정한 시간간격에 딱 한번만 코드가 실행
 
+```markup
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>가위바위보</title>
+        <style>
+            #computer {
+                width: 150px;
+                height: 243px;
+                background: url('https://en.pimg.jp/023/182/267/1/23182267.jpg') 0 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="computer"></div>
+        <div>
+            <button id="rock">바위</button>
+            <button id="scissor">가위</button>
+            <button id="paper">보</button>
+        </div>
+        <script src="가위바위보.js"></script>
+    </body>
+</html>
+```
+
+```javascript
+var left = 0;
+setInterval(() => {
+    if(left === 0) {
+        left = '-142px';
+    } else if(left === '-142px') {
+        left = '-284px';
+    } else {
+        left = 0;
+    }
+    document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + '0';
+}, 100);
+var left = 0;
+setInterval(function() {
+    if(left === 0) {
+        left = '-142px';
+    } else if(left === '-142px') {
+        left = '-284px';
+    } else {
+        left = 0;
+    }
+    document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + ' 0';
+}, 100);
+```
+
