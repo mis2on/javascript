@@ -6,6 +6,8 @@
 자바스크립트 객체는 딕셔너리 자료구조 역할을 할 수 있다.  
 1:1 매칭을 표현
 
+변수는 짧게 쓴다고 무조건 좋은건 아니다!
+
 ```javascript
 var 컴퓨터의선택 = 0;
 var 딕셔너리 = {
@@ -31,4 +33,6 @@ document.querySelectorAll('.btn').forEach(function(btn){
     });
 });
 ```
+
+
 
