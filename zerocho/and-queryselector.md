@@ -112,7 +112,9 @@ function 공색칠하기(숫자, 결과창) {
 <div class="공클래스34">34</div>
 ```
 
-.querySelector\('\#아이디명'\);
-
+.querySelector\('\#아이디명'\);  
 .querySelector\('.클래스명'\);
+
+여러태그 동시 선택  
+.querySelectorAll\(\)
 
