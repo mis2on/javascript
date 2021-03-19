@@ -80,7 +80,7 @@ document.querySelectorAll('.btn').forEach(function(btn){
 
 바위,가위,보 버튼을 모두 선택하기위해 querySelectorAll을 사용!  
 querySelectorAll은 forEach를 써서 addEventListener과 연결해 줘야한다.  
-연결이 되면 개발자 도구 Event Listeners에서 확인가능
+연결이 후 개발자 도구 Event Listeners에서 확인가능
 
 ![](../.gitbook/assets/image%20%2834%29.png)
 
