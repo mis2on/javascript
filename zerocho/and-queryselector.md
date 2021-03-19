@@ -101,7 +101,11 @@ function 공색칠하기(숫자, 결과창) {
 
 ```javascript
 공.id = '공아이디' + 숫자;
-
+//↓ 결과
 <div id="공아이디34">34</div>
+
+공.class = '공클래스' + 숫자; XXXXX
+공.className = '공클래스' + 숫자; OOOO
+
 ```
 
