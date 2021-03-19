@@ -26,3 +26,7 @@ setInterval(function() {
 
 일정시간 간격으로 코드를 반복 실행
 
+## setTimeout
+
+지정한 시간간격에 딱 한번만 코드가 실행
+
