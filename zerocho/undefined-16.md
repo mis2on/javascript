@@ -29,7 +29,8 @@ setInterval(function() {
 
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function() {
-        console.log(this.textContent, 컴퓨터);    //left는 컴퓨터가 뭘 냈는지
+    var 나의선택 = this.textContent;
+        console.log(나의선택, 컴퓨터의선택);    //left는 컴퓨터가 뭘 냈는지
     });
 });
 ```
