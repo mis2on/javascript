@@ -15,11 +15,6 @@ var 가위바위보 = {  //딕셔너리 자료구조
     가위 : '-142px',
     보 : '-284px'
 };
-var 가위바위보2 = {
-    '0' : '바위',
-    '-142px' : '가위',
-    '-284px' : '보'
-};
 
 setInterval(function() {
     if(컴퓨터의선택 === 가위바위보.바위) {
@@ -35,7 +30,7 @@ setInterval(function() {
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function() {
     var 나의선택 = this.textContent;
-        console.log(나의선택, 가위바위보2[컴퓨터의선택]);    //left는 컴퓨터가 뭘 냈는지
+        console.log(나의선택, 컴퓨터의선택);    //left는 컴퓨터가 뭘 냈는지
     });
 });
 ```
