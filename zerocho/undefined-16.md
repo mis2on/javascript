@@ -7,7 +7,7 @@
 1:1 매칭을 표현
 
 ```javascript
-var left = 0;
+var 컴퓨터 = 0;
 var 딕셔너리 = {
     바위 : '0',
     가위 : '-142px',
@@ -15,19 +15,19 @@ var 딕셔너리 = {
 };
 
 setInterval(function() {
-    if(left === 딕셔너리.바위) {
-        left = '-142px';
-    } else if(left === '-142px') {
-        left = '-284px';
+    if(컴퓨터 === 딕셔너리.바위) {
+        컴퓨터 = 딕셔너리.가위;
+    } else if(컴퓨터 === 딕셔너리.가위) {
+        컴퓨터 = 딕셔너리.보;
     } else {
-        left = 0;
+        컴퓨터 = 딕셔너리.바위;
     }
     document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + left + ' 0';
 }, 100);
 
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function() {
-        console.log(this.textContent, left);    //left는 컴퓨터가 뭘 냈는지
+        console.log(this.textContent, 컴퓨터);    //left는 컴퓨터가 뭘 냈는지
     });
 });
 ```
