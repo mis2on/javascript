@@ -78,5 +78,5 @@ for(var i = 0; i < document.querySelectorAll('.btn'); i += 1) {
 ```
 
 바위,가위,보 버튼을 모두 선택하기위해 querySelectorAll을 사용!  
-querySelectorAll은 반복문을 돌면서 eventListener과 연결해줄 수 있다..
+querySelectorAll은 반복문을 돌면서 eventListener과 연결해줘야한다...
 
