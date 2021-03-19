@@ -24,7 +24,7 @@ setInterval(function() {
 
 ## setInterval
 
-일정시간 간격으로 코드를 반복 실행
+일정시간 간격마다 코드를 반복 실행
 
 ## setTimeout
 
@@ -39,7 +39,7 @@ setInterval(function() {
         <style>
             #computer {
                 width: 150px;
-                height: 243px;
+                height: 220px;
                 background: url('https://en.pimg.jp/023/182/267/1/23182267.jpg') 0 0;
             }
         </style>
