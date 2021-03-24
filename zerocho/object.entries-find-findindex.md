@@ -56,13 +56,19 @@ var 가위바위보2 = {
 Object.entries(객체)
 ```
 
-## 배열에서 특정한 값을 찾기
+## 배열에서 특정한 값을 찾기 .find
 
 ```javascript
 Object.entries(가위바위보).find(function(y){
-    return y[1] === '바위';
-})
+    return y[0] === '바위';
+});
+//0번째가 바위인것을 찾는다.
 ```
 
+배열.find는 반복문이지만 원하는 것을 찾으면 \(return이 true\) 멈춘다.
 
+.findIndex 인덱스를 찾아준다
+
+1차원 배열일 때는 indexOf  
+2차원 배열일 때는  find, findIndex 를 자주 사용한다.
 
