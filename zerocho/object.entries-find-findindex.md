@@ -1,5 +1,6 @@
 # Object.entries, find, findIndex
 
+가위바위보를 꺼꾸로 가위바위보2를 만드는 방법은 아래처럼 하드코딩하는 방법말고  
 object.entries\(객체\)로 객체를 배열로 바꿀 수 있다.
 
 ```javascript
