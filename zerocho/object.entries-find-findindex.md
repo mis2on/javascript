@@ -38,3 +38,25 @@ document.querySelectorAll('.btn').forEach(function(btn){
 
 ![](../.gitbook/assets/image%20%2836%29.png)
 
+
+
+```javascript
+var 가위바위보 = {
+    바위: '0',
+    가위: '-142px',
+    보: '-284px'
+};
+var 가위바위보2 = {
+    '0': '바위',
+    '-142px': '가위' ,
+    '-284px': '보'
+};
+
+// 100개면.....어떻게 바꿔?
+Object.entries(객)
+```
+
+
+
+
+
