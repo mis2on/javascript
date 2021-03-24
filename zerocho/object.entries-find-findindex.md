@@ -53,10 +53,16 @@ var 가위바위보2 = {
 };
 
 // 100개면.....어떻게 바꿔?
-Object.entries(객)
+Object.entries(객체)
 ```
 
+## 배열에서 특정한 값을 찾기
 
+```javascript
+Object.entries(가위바위보).find(function(y){
+    return y[1] === '바위';
+})
+```
 
 
 
