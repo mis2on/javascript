@@ -1,5 +1,7 @@
 # setTimeout, clearTimeout
 
+clearInterval로 setInterval로 멈춘다.
+
 ```javascript
 var 이미지좌표 = 0;
 var 가위바위보 = {
