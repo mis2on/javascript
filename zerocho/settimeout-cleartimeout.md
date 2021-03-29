@@ -28,9 +28,23 @@ var 인터벌 = setInterval(function(){
     document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + 이미지좌표 + ' 0'; 
 }, 100);
 
+
+//clearInterval과 setInterval을 반복
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function(){
         clearInterval(인터벌);
+        setTimeout(function(){
+            인터벌 = setInterval(function(){
+                if(이미지좌표 === 가위바위보.바위) {
+                    이미지좌표 =  가위바위보.가위;
+                } else if (이미지좌표 === 가위바위보.가위) {
+                    이미지좌표 = 가위바위보.보;
+                } else {
+                    이미지좌표 = 가위바위보.바위;
+                }
+                document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + 이미지좌표 + ' 0'; 
+            }, 100);
+        }, 1000);
         var 나의선택 = this.textContent;
         console.log(나의선택, 컴퓨터의선택(이미지좌표));
         if(나의선택 === '가위') {
