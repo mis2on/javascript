@@ -46,4 +46,6 @@
 * [딕셔너리 자료구조](zerocho/undefined-16.md)
 * [Object.entries, find, findIndex](zerocho/object.entries-find-findindex.md)
 * [setTimeout, clearTimeout](zerocho/settimeout-cleartimeout.md)
+* [가위바위보 규칙 찾기](zerocho/undefined-6.md)
+* [변수를 사용해 중복 제거하기](zerocho/undefined-10.md)
 
