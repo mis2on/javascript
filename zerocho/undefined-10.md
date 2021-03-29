@@ -66,3 +66,5 @@ document.querySelectorAll('.btn').forEach(function(btn){
 })
 ```
 
+글 읽듯이 읽히는 코드가 좋은코드?
+
