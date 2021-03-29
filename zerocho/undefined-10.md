@@ -1,7 +1,5 @@
 # 변수를 사용해 중복 제거하기
 
-배열.includes로 \|\| 관계를 줄일 수 있다.
-
 ```javascript
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function(){
@@ -20,6 +18,8 @@ document.querySelectorAll('.btn').forEach(function(btn){
     });
 })
 ```
+
+배열.includes로 \|\| 관계를 줄일 수 있다.
 
 ```javascript
 document.querySelectorAll('.btn').forEach(function(btn){
