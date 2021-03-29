@@ -17,7 +17,9 @@ function 컴퓨터의선택(이미지좌표) {
     })[0];
 } 
 
-var 인터벌 = setInterval(function(){
+var 인터벌;
+function 인터벌메이커(){
+    인터벌 = setInterval(function(){
     if(이미지좌표 === 가위바위보.바위) {
         이미지좌표 =  가위바위보.가위;
     } else if (이미지좌표 === 가위바위보.가위) {
@@ -26,7 +28,8 @@ var 인터벌 = setInterval(function(){
         이미지좌표 = 가위바위보.바위;
     }
     document.querySelector('#computer').style.background = 'url(https://en.pimg.jp/023/182/267/1/23182267.jpg)' + 이미지좌표 + ' 0'; 
-}, 100);
+    }, 100);
+};
 
 
 //clearInterval과 setInterval을 반복
