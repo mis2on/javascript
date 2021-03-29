@@ -31,6 +31,7 @@ function 인터벌메이커(){
     }, 100);
 };
 
+인터벌메이커();
 
 //clearInterval과 setInterval을 반복
 document.querySelectorAll('.btn').forEach(function(btn){
