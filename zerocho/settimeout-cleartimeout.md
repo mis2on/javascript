@@ -17,7 +17,7 @@ function 컴퓨터의선택(이미지좌표) {
     })[0];
 } 
 
-setInterval(function(){
+var 인터벌 = setInterval(function(){
     if(이미지좌표 === 가위바위보.바위) {
         이미지좌표 =  가위바위보.가위;
     } else if (이미지좌표 === 가위바위보.가위) {
@@ -30,29 +30,30 @@ setInterval(function(){
 
 document.querySelectorAll('.btn').forEach(function(btn){
     btn.addEventListener('click', function(){
+        clearInterval(인터벌);
         var 나의선택 = this.textContent;
         console.log(나의선택, 컴퓨터의선택(이미지좌표));
-        if(나의선택 === '바위') {
-            if(컴퓨터의선택(이미지좌표) === '바위') {
+        if(나의선택 === '가위') {
+            if(컴퓨터의선택(이미지좌표) === '가위') {
                 console.log('비겼습니다.');
-            } else if(컴퓨터의선택(이미지좌표) === '가위') {
+            } else if(컴퓨터의선택(이미지좌표) === '바위') {
                 console.log('졌습니다ㅠㅠ');
             } else {
-                console.log('이겼습니다!!');
+                console.log('이겼습니다.');
             }
-        } else if(나의선택 === '가위') {
-            if(컴퓨터의선택(이미지좌표) === '바위') {
-                console.log('이겼습니다!!');
-            } else if(컴퓨터의선택(이미지좌표) === '가위') {
-                console.log('비겼습니다');
-            } else {
+        } else if(나의선택 === '바위') {
+            if(컴퓨터의선택(이미지좌표) === '가위') {
+                console.log('이겼습니다.');
+            } else if(컴퓨터의선택(이미지좌표) === '바위') {
+                console.log('비겼습니다.');
+            } else { 
                 console.log('졌습니다ㅠㅠ');
             }
         } else {
-            if(컴퓨터의선택(이미지좌표) === '바위') {
+            if(컴퓨터의선택(이미지좌표) === '가위') {
                 console.log('졌습니다ㅠㅠ');
-            } else if(컴퓨터의선택(이미지좌표) === '가위') {
-                console.log('이겼습니다!!');
+            } else if(컴퓨터의선택(이미지좌표) === '바위') {
+                console.log('이겼습니다.');
             } else {
                 console.log('비겼습니다.');
             }
