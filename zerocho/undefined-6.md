@@ -75,6 +75,8 @@ document.querySelectorAll('.btn').forEach(function(btn){
 })
 ```
 
+## 가위,바위,보 규칙 살펴보기
+
 // 가위: 1, 바위: 0, 보: -1
 
 | 나/컴퓨터 | 가위 | 바 |  |
@@ -82,4 +84,8 @@ document.querySelectorAll('.btn').forEach(function(btn){
 | 가위 |   1 1 |   1 0 |   1 -1 |
 | 바 |   0 1 |   0 0 |   0 -1 |
 | 보 | -1 1 | -1 0 | -1 -1 |
+
+```javascript
+
+```
 
