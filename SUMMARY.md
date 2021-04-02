@@ -49,3 +49,7 @@
 * [가위바위보 규칙 찾기](zerocho/undefined-6.md)
 * [변수를 사용해 중복 제거하기](zerocho/undefined-10.md)
 
+## 2020
+
+* [Untitled](2020/untitled.md)
+
