@@ -91,18 +91,15 @@ const a = document.querySelector('#first').value
 document.querySelector('#click').addEventListener('click', () => {
     const a = document.querySelector('#first').value;
     const b = document.querySelector('#second').value;
-      
+    const r = document.querySelector('#result');  
     if(a) {
         if(b) {
             const c = a * b
-            const r = document.querySelector('#result');
             r.textContent = c
         } else {
-            const r = document.querySelector('#result');
             r.textContent = '두번째 값을 입력해주세요.'
         }
     } else {
-        const r = document.querySelector('#result');
         r.textContent = '첫번째 값을 입력해주세요.'
     }
 });
