@@ -86,25 +86,3 @@ const a = document.querySelector('#first').value
 변수a를 만들고 값을 가지고와서 저장한다
 ```
 
-```javascript
-document.querySelector('#click').addEventListener('click', () => {
-    const a = document.querySelector('#first').value;
-    const b = document.querySelector('#second').value;
-      
-    if(a) {
-        if(b) {
-            const c = a * b
-            const r = document.querySelector('#result');
-            r.textContent = c
-        } else {
-            const r = document.querySelector('#result');
-            r.textContent = '두번째 값을 입력해주세요.'
-        }
-    } else {
-        const r = document.querySelector('#result');
-        r.textContent = '첫번째 값을 입력해주세요.'
-    }
-});
-
-```
-
