@@ -17,5 +17,61 @@ const a = document.querySelector('#first').value
 const b = document.querySelector('#second').value
 ```
 
+input은 value  
+span은 textContent
 
+```javascript
+var a = document.querySelector('#first').value
+var b = document.querySelector('#second').value
+
+if(a) {
+    if(b) {
+        a * b
+        document.querySelector('#result').textContent = a * b
+    } else {
+        document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
+    }
+} else {
+    document.querySelector('#result').textContent = '첫번째 값을 입력해주세요.'
+}
+```
+
+## function\(\){} ES6문법 \(\) =&gt; {}
+
+```javascript
+var a = document.querySelector('#first').value
+var b = document.querySelector('#second').value
+
+document.querySelector('#click').addEventListener('click', function(){
+    if(a) {
+        if(b) {
+            a * b
+            document.querySelector('#result').textContent = a * b
+        } else {
+            document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
+        }
+    } else {
+        document.querySelector('#result').textContent = '첫번째 값을 입력해주세요.'
+    }
+});
+
+----------------------------------------------------------------------
+
+var a = document.querySelector('#first').value
+var b = document.querySelector('#second').value
+
+document.querySelector('#click').addEventListener('click', () => {
+    if(a) {
+        if(b) {
+            a * b
+            document.querySelector('#result').textContent = a * b
+        } else {
+            document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
+        }
+    } else {
+        document.querySelector('#result').textContent = '첫번째 값을 입력해주세요.'
+    }
+});
+
+```
 
