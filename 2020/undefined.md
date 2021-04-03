@@ -22,8 +22,8 @@ span은 textContent
 
 ```javascript
 if(a) {
-    var a = document.querySelector('#first').value
-    var b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value
+    const b = document.querySelector('#second').value
     
     if(b) {
         a * b
@@ -41,8 +41,8 @@ if(a) {
 ```javascript
 //버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', function(){
-    var a = document.querySelector('#first').value
-    var b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value
+    const b = document.querySelector('#second').value
     
     if(a) {
         if(b) {
@@ -59,8 +59,8 @@ document.querySelector('#click').addEventListener('click', function(){
 -------------------------ES6문법---------------------------------------------
 //버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', () => {
-    var a = document.querySelector('#first').value
-    var b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value
+    const b = document.querySelector('#second').value
     
     if(a) {
         if(b) {
@@ -76,5 +76,6 @@ document.querySelector('#click').addEventListener('click', () => {
 
 ```
 
-코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다!
+코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다!  
+= 수학에서는 같다라는 뜻이지만 프로그래밍에서는 =은 대입이라는 뜻
 
