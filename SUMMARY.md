@@ -51,5 +51,6 @@
 
 ## 2020
 
-* [Untitled](2020/untitled.md)
+* [프로그래밍 사고방식 & 순서도그리기](2020/untitled.md)
+* [변수와 조건문](2020/undefined.md)
 

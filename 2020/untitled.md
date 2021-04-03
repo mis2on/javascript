@@ -1,4 +1,4 @@
-# Untitled
+# 프로그래밍 사고방식 & 순서도그리기
 
 ```javascript
 console.log('Hello JS');
