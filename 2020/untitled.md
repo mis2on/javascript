@@ -20,3 +20,15 @@ document.write('hello Js');
 
 ![](../.gitbook/assets/kakaotalk_20210403_182210712.jpg)
 
+순서도 그려보기 
+
+![](../.gitbook/assets/image%20%2838%29.png)
+
+
+
+화면을 구성하는 방법
+
+1. 자바스크립트로 html 만들
+
+2. html로 만들고 자바스크립트로 가져오기
+
