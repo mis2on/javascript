@@ -18,3 +18,5 @@ document.write('hello Js');
 
 어떻게 돌아갈지 그려보는 연습
 
+![](../.gitbook/assets/kakaotalk_20210403_182210712.jpg)
+
