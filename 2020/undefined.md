@@ -48,7 +48,7 @@ document.querySelector('#click').addEventListener('click', function(){
     if(a) {
         if(b) {
             a * b
-            rtextContent.querySelector('#result').textContent = a * b
+            r.textContent = a * b
         } else {
             document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
         }
