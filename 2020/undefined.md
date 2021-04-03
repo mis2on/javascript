@@ -13,8 +13,8 @@ second라는 아이디를 가진 input의 입력값을 가져온다.
 ## ★ 가져온 값을 변수에 저장한다.
 
 ```javascript
-const a = document.querySelector('#first').value
-const b = document.querySelector('#second').value
+const a = document.querySelector('#first').value;
+const b = document.querySelector('#second').value;
 ```
 
 input은 value  
@@ -22,8 +22,8 @@ span은 textContent
 
 ```javascript
 if(a) {
-    const a = document.querySelector('#first').value
-    const b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value;
+    const b = document.querySelector('#second').value;
     
     if(b) {
         a * b
@@ -41,13 +41,14 @@ if(a) {
 ```javascript
 //버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', function(){
-    const a = document.querySelector('#first').value
-    const b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value;
+    const b = document.querySelector('#second').value;
+    const r = document.querySelector('#result');
     
     if(a) {
         if(b) {
             a * b
-            document.querySelector('#result').textContent = a * b
+            rtextContent.querySelector('#result').textContent = a * b
         } else {
             document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
         }
@@ -59,8 +60,8 @@ document.querySelector('#click').addEventListener('click', function(){
 -------------------------ES6문법---------------------------------------------
 //버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', () => {
-    const a = document.querySelector('#first').value
-    const b = document.querySelector('#second').value
+    const a = document.querySelector('#first').value;
+    const b = document.querySelector('#second').value;
     
     if(a) {
         if(b) {
@@ -77,5 +78,10 @@ document.querySelector('#click').addEventListener('click', () => {
 ```
 
 코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다!  
-= 수학에서는 같다라는 뜻이지만 프로그래밍에서는 =은 대입이라는 뜻
+= 수학에서는 같다라는 뜻이지만 프로그래밍에서는 =은 대입,저장의 뜻
+
+```javascript
+const a = document.querySelector('#first').value
+변수a를 만들고 값을 가지고와서 저장한다
+```
 
