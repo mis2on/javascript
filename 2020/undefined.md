@@ -43,14 +43,14 @@ if(a) {
 document.querySelector('#click').addEventListener('click', function(){
     const a = document.querySelector('#first').value;
     const b = document.querySelector('#second').value;
-    const r = document.querySelector('#result');
-    
+      
     if(a) {
         if(b) {
             const c = a * b
+            const r = document.querySelector('#result');
             r.textContent = c
         } else {
-            r.textContent =  '두번째 값을 입력해주세요.'
+            r.textContent = '두번째 값을 입력해주세요.'
         }
     } else {
         r.textContent = '첫번째 값을 입력해주세요.'
@@ -62,13 +62,14 @@ document.querySelector('#click').addEventListener('click', function(){
 document.querySelector('#click').addEventListener('click', () => {
     const a = document.querySelector('#first').value;
     const b = document.querySelector('#second').value;
-    
+      
     if(a) {
         if(b) {
             const c = a * b
+            const r = document.querySelector('#result');
             r.textContent = c
         } else {
-            r.textContent =  '두번째 값을 입력해주세요.'
+            r.textContent = '두번째 값을 입력해주세요.'
         }
     } else {
         r.textContent = '첫번째 값을 입력해주세요.'
