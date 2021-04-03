@@ -50,10 +50,10 @@ document.querySelector('#click').addEventListener('click', function(){
             a * b
             r.textContent = a * b
         } else {
-            document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
+            r.textContent =  '두번째 값을 입력해주세요.'
         }
     } else {
-        document.querySelector('#result').textContent = '첫번째 값을 입력해주세요.'
+        r.textContent = '첫번째 값을 입력해주세요.'
     }
 });
 
@@ -66,12 +66,12 @@ document.querySelector('#click').addEventListener('click', () => {
     if(a) {
         if(b) {
             a * b
-            document.querySelector('#result').textContent = a * b
+            r.textContent = a * b
         } else {
-            document.querySelector('#result').textContent =  '두번째 값을 입력해주세요.'
+            r.textContent =  '두번째 값을 입력해주세요.'
         }
     } else {
-        document.querySelector('#result').textContent = '첫번째 값을 입력해주세요.'
+        r.textContent = '첫번째 값을 입력해주세요.'
     }
 });
 
