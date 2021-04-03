@@ -30,5 +30,5 @@ document.write('hello Js');
 
 1. 자바스크립트로 html 만들
 
-2. html로 만들고 자바스크립트로 가져오기
+    2. html로 만들고 자바스크립트로 가져오기
 
