@@ -36,7 +36,7 @@ if(a) {
 }
 ```
 
-## function\(\){} ES6문법 \(\) =&gt; {}
+## 함수표현시 function\(\){}을 ES6문법으로 \(\) =&gt; {}
 
 ```javascript
 var a = document.querySelector('#first').value
@@ -55,7 +55,7 @@ document.querySelector('#click').addEventListener('click', function(){
     }
 });
 
-----------------------------------------------------------------------
+-------------------------ES6문법---------------------------------------------
 
 var a = document.querySelector('#first').value
 var b = document.querySelector('#second').value
