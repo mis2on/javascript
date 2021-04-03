@@ -16,3 +16,5 @@ document.write('hello Js');
 
 ![](../.gitbook/assets/image%20%2837%29.png)
 
+어떻게 돌아갈지 그려보는 연습
+
