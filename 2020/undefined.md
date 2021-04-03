@@ -47,8 +47,8 @@ document.querySelector('#click').addEventListener('click', function(){
     
     if(a) {
         if(b) {
-            a * b
-            r.textContent = a * b
+            const c = a * b
+            r.textContent = c
         } else {
             r.textContent =  '두번째 값을 입력해주세요.'
         }
@@ -65,8 +65,8 @@ document.querySelector('#click').addEventListener('click', () => {
     
     if(a) {
         if(b) {
-            a * b
-            r.textContent = a * b
+            const c = a * b
+            r.textContent = c
         } else {
             r.textContent =  '두번째 값을 입력해주세요.'
         }
