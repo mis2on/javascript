@@ -21,10 +21,10 @@ input은 value
 span은 textContent
 
 ```javascript
-var a = document.querySelector('#first').value
-var b = document.querySelector('#second').value
-
 if(a) {
+    var a = document.querySelector('#first').value
+    var b = document.querySelector('#second').value
+    
     if(b) {
         a * b
         document.querySelector('#result').textContent = a * b
@@ -39,11 +39,11 @@ if(a) {
 ## 함수표현시 function\(\){}을 ES6문법으로 \(\) =&gt; {}
 
 ```javascript
-var a = document.querySelector('#first').value
-var b = document.querySelector('#second').value
-
-//버튼을 클릭할 
+//버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', function(){
+    var a = document.querySelector('#first').value
+    var b = document.querySelector('#second').value
+    
     if(a) {
         if(b) {
             a * b
@@ -57,12 +57,11 @@ document.querySelector('#click').addEventListener('click', function(){
 });
 
 -------------------------ES6문법---------------------------------------------
-
-var a = document.querySelector('#first').value
-var b = document.querySelector('#second').value
-
 //버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', () => {
+    var a = document.querySelector('#first').value
+    var b = document.querySelector('#second').value
+    
     if(a) {
         if(b) {
             a * b
@@ -76,4 +75,6 @@ document.querySelector('#click').addEventListener('click', () => {
 });
 
 ```
+
+코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다!
 
