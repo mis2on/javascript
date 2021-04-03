@@ -78,11 +78,33 @@ document.querySelector('#click').addEventListener('click', () => {
 
 ```
 
-코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다!  
+코드는 위에서부터 아래로! 왼쪽에서 오른쪽으로 실행된다! 항상X  
 = 수학에서는 같다라는 뜻이지만 프로그래밍에서는 =은 대입,저장의 뜻
 
 ```javascript
 const a = document.querySelector('#first').value
 변수a를 만들고 값을 가지고와서 저장한다
+```
+
+```javascript
+document.querySelector('#click').addEventListener('click', () => {
+    const a = document.querySelector('#first').value;
+    const b = document.querySelector('#second').value;
+      
+    if(a) {
+        if(b) {
+            const c = a * b
+            const r = document.querySelector('#result');
+            r.textContent = c
+        } else {
+            const r = document.querySelector('#result');
+            r.textContent = '두번째 값을 입력해주세요.'
+        }
+    } else {
+        const r = document.querySelector('#result');
+        r.textContent = '첫번째 값을 입력해주세요.'
+    }
+});
+
 ```
 
