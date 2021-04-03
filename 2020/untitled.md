@@ -30,5 +30,6 @@ document.write('hello Js');
 
 1. 자바스크립트로 html 만들
 
-    2. html로 만들고 자바스크립트로 가져오기
+    2. html로 만들고 자바스크립트로 가져오기  
+     \* 보통회사에서 html로 화면을 만들고 디자인은 css, 동작은 js
 
