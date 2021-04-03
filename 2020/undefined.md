@@ -42,6 +42,7 @@ if(a) {
 var a = document.querySelector('#first').value
 var b = document.querySelector('#second').value
 
+//버튼을 클릭할 
 document.querySelector('#click').addEventListener('click', function(){
     if(a) {
         if(b) {
@@ -60,6 +61,7 @@ document.querySelector('#click').addEventListener('click', function(){
 var a = document.querySelector('#first').value
 var b = document.querySelector('#second').value
 
+//버튼을 클릭할 때
 document.querySelector('#click').addEventListener('click', () => {
     if(a) {
         if(b) {
