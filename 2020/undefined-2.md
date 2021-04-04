@@ -34,7 +34,7 @@ word 안에 제시어를 input으로 바꾸려는게 아니다
 
 var 옛날문법!
 
-const
+const 대부분 사용
 
-let
+let 값을 바꿀일이 생길때
 
