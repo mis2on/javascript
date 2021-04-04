@@ -28,6 +28,7 @@ btn.addEventListener('click', () => {
 const word = document.querySelector\('\#word'\).textContent;  
 word는 문자열  
 word라는 공간에 input입력값으로 바꾸려는거지  
-word 안에 제시어를 input으로 바꾸려는게 아  
-=은 같다라는 뜻이 아니라 잠시 넣어둔다 대입한다!
+word 안에 제시어를 input으로 바꾸려는게 아니다  
+=은 같다라는 뜻이 아니라 잠시 넣어둔다 대입한다!  
+값을 저장하는건 x, 태그를 저장하는건 o
 
