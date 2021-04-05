@@ -55,4 +55,5 @@
 * [변수와 조건문](2020/undefined.md)
 * [문자열과 인덱스](2020/undefined-1.md)
 * [변수 값 수정과 상수](2020/undefined-2.md)
+* [변수의 생명\(블록 스코프\)](2020/undefined-3.md)
 
