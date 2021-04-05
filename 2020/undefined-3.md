@@ -31,19 +31,28 @@ ex\) const w = input\[0\];
 const btn = document.querySelector('#button');
 // document.querySelector('#아이디')는 그 아이디의 태그를 가져온다.
 btn.addEventListener('click', () => {
-    const word = document.querySelector('#word').textContent;
+    let wordTag = document.querySelector('#word');
+    let word = wordTag.textContent;
     // .은 ~의를 의미
-    const input = document.querySelector('#input').value;
+    let inputTag = document.querySelector('#input');
+    let input = inputTag.value;
+    let errorTag = document.querySelector('#error');
     if(word[word.length -1] === input[0]) {
-        document.querySelector('#word').textContent = input;
-        document.querySelector('#error').textContent = '';
-        document.querySelector('#input').value = '';
-        document.querySelector('#input').focus();
+        wordTag.textContent = input;
+        errorTag.textContent = '';
+        inputTag.value = '';
+        inputTag.focus();
     } else {
-        document.querySelector('#error').textContent = '땡';
-        document.querySelector('#input').value = '';
-        document.querySelector('#input').focus();
+        errorTag.textContent = '땡';
+        inputTag.value = '';
+        inputTag.focus();
     }
 });
 ```
+
+## 중복제거
+
+단어장에 input이 있는가 확인!
+
+## 변수는 사용하는 곳 최대한 가까이 선언하기
 
