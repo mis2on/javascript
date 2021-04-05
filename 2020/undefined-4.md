@@ -84,5 +84,5 @@ resultInput.addEventListener('click', () => {
 });
 ```
 
-input에 넣은 것은 숫자가 아닌 문자!
+input.value는 숫자가 아닌 무조건 문자!
 
