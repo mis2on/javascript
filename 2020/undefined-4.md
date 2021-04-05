@@ -29,3 +29,5 @@ resultInput.addEventListener('click', () => {
 });
 ```
 
+초기화할때 null을 쓴다
+
