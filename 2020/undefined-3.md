@@ -27,6 +27,8 @@ btn.addEventListener('click', () => {
 ex\) const w = input\[0\];  
        const i = word\[lastIndex\];
 
+const는 나중에 값을 바꿀 수 없다
+
 ```javascript
 const btn = document.querySelector('#button');
 // document.querySelector('#아이디')는 그 아이디의 태그를 가져온다.
