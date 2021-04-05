@@ -31,3 +31,5 @@ resultInput.addEventListener('click', () => {
 
 초기화할때 null을 쓴다
 
+= 대입연산자는 오른쪽부터 실행
+
