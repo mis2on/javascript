@@ -13,5 +13,24 @@ console.log('*'.repeat(5))
 *****
 ```
 
+```javascript
+let n = 1
+while(n <= 5) {
+    console.log('*'.repeat(n))
+    n = n + 1
+}
+```
 
+```javascript
+console.log('*'.repeat(5))
+console.log('*'.repeat(4))
+console.log('*'.repeat(3))
+console.log('*'.repeat(2))
+console.log('*'.repeat(1))
+*****
+****
+***
+**
+*
+```
 
