@@ -34,3 +34,11 @@ console.log('*'.repeat(1))
 *
 ```
 
+```javascript
+let n = 5
+while(n >= 1) {
+    console.log('*'.repeat(n))
+    n = n - 1
+}
+```
+
