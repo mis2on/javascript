@@ -22,6 +22,8 @@ while(n <= 5) {
 }
 ```
 
+## 
+
 ```javascript
 console.log('*'.repeat(5))
 console.log('*'.repeat(4))
@@ -44,6 +46,8 @@ while(n >= 1) {
 }
 ```
 
+## 
+
 ```javascript
 console.log('    *')
 console.log('   **')
@@ -65,8 +69,14 @@ console.log(' '.repeat(0) + '*'.repeat(5))
 
 //규칙찾아보기
 console.log(' '.repeat(5-n) + '*'.repeat(n))
+```
 
-
+```javascript
+let n = 1;
+while(n <= 5) {
+    console.log(' '.repeat(5-n) + '*'.repeat(n))
+    n = n + 1
+}
 ```
 
 ★ 규칙을 잘 파악하자
