@@ -48,6 +48,11 @@ console.log('   **')
 console.log('  ***')
 console.log(' ****')
 console.log('*****')
+    *
+   **
+  ***
+ ****
+*****
 ```
 
 ★ 규칙을 잘 파악하자
