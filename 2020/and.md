@@ -83,3 +83,12 @@ while(n <= 5) {
 
 무한반복 매크로를 멈추고 싶을 때 shift + ESC 눌러 크롬만의 작업관리자에 끄기
 
+## 절대값
+
+```javascript
+Math.abs(-5)
+5
+Math.abs(5)
+5
+```
+
