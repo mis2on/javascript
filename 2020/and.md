@@ -75,7 +75,7 @@ console.log(' '.repeat(5-n) + '*'.repeat(n))
 let n = 1;
 while(n <= 5) {
     console.log(' '.repeat(5-n) + '*'.repeat(n))
-    n = n + 1
+    n = n + 1    // n += 1,    n++
 }
 ```
 
