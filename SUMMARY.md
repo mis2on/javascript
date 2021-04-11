@@ -49,7 +49,7 @@
 * [가위바위보 규칙 찾기](zerocho/undefined-6.md)
 * [변수를 사용해 중복 제거하기](zerocho/undefined-10.md)
 
-## 2020
+## ES2020 <a id="2020"></a>
 
 * [프로그래밍 사고방식 & 순서도그리기](2020/untitled.md)
 * [변수와 조건문](2020/undefined.md)
@@ -60,7 +60,7 @@
 * [숫자야구](2020/undefined-5.md)
 * [반복문사용 & 별찍기](2020/and.md)
 
-## 2021
+## ES2021 <a id="2021"></a>
 
 * [Untitled](2021/untitled.md)
 
