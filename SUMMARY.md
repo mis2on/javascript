@@ -66,4 +66,5 @@
 * [Hello, world!](javascript/hello-world.md)
 * [코드구조](javascript/undefined.md)
 * [엄격모드](javascript/undefined-1.md)
+* [변수와 상수](javascript/undefined-2.md)
 
