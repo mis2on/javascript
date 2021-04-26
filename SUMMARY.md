@@ -68,4 +68,5 @@
 * [엄격모드](javascript/undefined-1.md)
 * [변수와 상수](javascript/undefined-2.md)
 * [자료형](javascript/undefined-3.md)
+* [alert, prompt, confirm을 이용한 상호작용](javascript/alert-prompt-confirm.md)
 
