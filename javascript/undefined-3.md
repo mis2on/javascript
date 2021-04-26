@@ -21,6 +21,10 @@ alert("숫자가 아님"/ 2);
 //NaN 문자열을 숫자로 나누면 오류가 발생한다.
 ```
 
+## BigInt
+
+길이 제약 없이 정수를 나타낼 수 있다. BigInt형은 정수 리터럴 끝에 n을 붙이면 만들 수 있다.
+
 ## 문자형
 
 문자열은 따옴표로 묶는다.  
@@ -57,5 +61,29 @@ null 값처럼 자신만의 자료형을 형성한다. 값이 할당되지 않�
 변수가 비어있거나, 알 수 없는 상태라는 걸 나타내려면 null을 사용하자!  
 undefined는 값이 할당되지 않은 변수의 초기값을 위해 예약어로 남겨두자
 
+## 객체와 심볼
 
+객체형은 특수한 자료형이다.
+
+## typeof 연산자
+
+typeof 연산자는 인수의 자료형을 반환한다. 자료형을 빠르게 알아내고자 할 때 유용
+
+```javascript
+typeof undefined //"undefined"
+typeof 0 //"number"
+typeof 10n //"binint"
+typeof true //"boolean"
+typeof "foo" //"string"
+typeof Symbol("id") //"symbol"
+typeof Math //"object"
+//Math는 수학연산을 제공하는 내장객체
+
+typeof null //"object"
+/* 하위 호환성을 유지하기 위해 오류를 수정하지 않고 남겨둠
+null은 언어상의 오류이다. null이 객체가 아니다.*/
+
+typeof alert //"function"
+//피연산자가 함수면 function을 반환한다.
+```
 
