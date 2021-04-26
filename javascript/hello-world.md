@@ -6,9 +6,9 @@
 
 · script 태그 type 속성 : type="text/javascript" 필수가 아님   
 · script 태그 language 속성 : 현재 사용x  
-· script 태그 src 속성 : 외부 스크립트 파일을 불러올 때
+· script 태그 src 속성 : 외부 스크립트 파일을 불러올 때 파일위치 경로 적는다. 절대경로와 상대경로 혹은 url 전체를 속성으로 사용할 수 있다.
 
 ```javascript
-<script src="js/script.js"></script>
+<script src="/js/script.js"></script>
 ```
 
