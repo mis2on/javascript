@@ -40,9 +40,33 @@ let user = 'Miseon',
 
 var 도 변수를 선언하는 키워드가 맞지만 오래된 방식이다.
 
+변수 값을 변경할 수 있다. 값을 변경하면 이전의 값을 제거된다.
+
+```javascript
+let message; 
+message = 'Hello!';
+message = 'World!'; // 값이 변경되었습니다.
+alert(message);
+```
+
+변수를 두번 선언하면 에러가 발생한다.
+
+```javascript
+let message = 'This';
+//let을 반복하면 에러가 발생한다.
+let message = 'That';
+```
+
 ## 변수 명명 규칙
 
+변수명에는 오직 문자와 숫자, 그리고 기호 $와 \_만 들어갈 수 있다.  
+첫 글자는 숫자가 될 수 없다.  
+여러 단어를 조합해 변수명을 만들 때는 카멜 표기법을 사용.
 
+변수명은 숫자로 시작할 수 없다.  
+let 1a;  
+하이픈'-'은 변수명에 올 수 없다.  
+let my-name; 
 
 ## 상수
 
