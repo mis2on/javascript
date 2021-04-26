@@ -80,7 +80,7 @@ alert(counter);
 
 ### 전위형\(++counter, --counter\) 과 후위형\(counter++, counter--\)
 
-전위형, 후위형 둘다 피연산자인 counter 값을 1만큼 증가시켜 준다는 점에서 동일하지만
+전위형, 후위형 둘다 피연산자인 counter 값을 1만큼 증가시켜 준다는 점에서 동일하지만 
 
 전위형
 
