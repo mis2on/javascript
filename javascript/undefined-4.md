@@ -78,3 +78,27 @@ counter--;
 alert(counter);
 ```
 
+### 전위형\(++counter, --counter\) 과 후위형\(counter++, counter--\)
+
+전위형, 후위형 둘다 피연산자인 counter 값을 1만큼 증가시켜 준다는 점에서 동일하지만
+
+전위형
+
+```javascript
+let counter = 1;
+let a = ++counter;
+
+alert(a); //2
+//counter를 증가시키고 새로운 값 2를 반환한다.
+```
+
+후위형
+
+```javascript
+let counter = 1;
+let a = counter++;
+
+alert(a); //1
+//counter를 증가시키긴 하지만 증가 전의 기존값을 반환한다.
+```
+
