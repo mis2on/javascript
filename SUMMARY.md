@@ -62,5 +62,6 @@
 
 ## 모던 JavaScript
 
-* [자바스크립트 소개](javascript/untitled.md)
+* [자바스크립트 소개](javascript/untitled-1.md)
+* [Hello, world!](javascript/hello-world.md)
 
