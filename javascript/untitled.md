@@ -34,7 +34,7 @@
 ![](../.gitbook/assets/image%20%2840%29.png)
 
 한줄명령 Enter  
-여러줄 명령 줄바꿈 Shift + Enter
+여러줄 명령시 줄바꿈은 Shift + Enter
 
 
 
