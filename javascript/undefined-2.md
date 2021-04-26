@@ -30,11 +30,15 @@ let user = 'Miseon', age = 26, message = 'Hello!';
 let user = 'Miseon';
 let age = 26;
 let message = 'Hello!';
+//각각 키워드
 
 let user = 'Miseon',
     age = 26;
     message = 'Hello!';
+//한개의 키워드로 변수선
 ```
+
+var 도 변수를 선언하는 키워드가 맞지만 오래된 방식이다.
 
 ## 변수 명명 규칙
 
