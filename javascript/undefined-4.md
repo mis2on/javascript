@@ -89,7 +89,7 @@ let counter = 1;
 let a = ++counter;
 
 alert(a); //2
-//counter를 증가시키고 새로운 값 2를 반환한다.
+//counter를 증가시키고 새로운 값 2를 반환한다. counter = 2, a = 2 
 ```
 
 후위형
@@ -99,6 +99,6 @@ let counter = 1;
 let a = counter++;
 
 alert(a); //1
-//counter를 증가시키긴 하지만 증가 전의 기존값을 반환한다.
+//counter를 증가시키긴 하지만 증가 전의 기존값을 반환한다. counter = 2, a = 1
 ```
 
