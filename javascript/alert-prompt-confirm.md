@@ -14,7 +14,7 @@ alert("Hello!");
 
 메세지가 있는 작은 창을 모달창이라고 부른다.
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 ## prompt
 
@@ -26,9 +26,9 @@ result = prompt(title, [default]);
 //[default] 입력 필드의 초깃값
 ```
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![](../.gitbook/assets/image%20%2846%29.png)
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 ## confirm 대화상자
 
@@ -43,4 +43,14 @@ result = confirm(question);
 let isBoss = confirm("당신이 주인인가요?");
 alert(isBoss);    //확인 버튼을 눌렀다면 ture가 출력된다.
 ```
+
+![](../.gitbook/assets/image%20%2847%29.png)
+
+확인버튼을 눌렀을 때
+
+![](../.gitbook/assets/image%20%2845%29.png)
+
+취소버튼을 눌렀을 때
+
+![](../.gitbook/assets/image%20%2843%29.png)
 
