@@ -8,9 +8,33 @@ let 키워드를 사용해 변수를 생성한다.
 ```javascript
 let message;
 //'message'라는 이름을 가진 변수를 생성(선언)
+
+let message;
+message = 'Hello!';
+//message변수에 'Hello!' 문자를 저장
+
+let message;
+message = 'Hello!';
+alert(message);    //변수에 저장된 값을 보여준다.
+
+let message = 'Hello!'; //한 줄로 작성
+alert(message);
 ```
 
+동시에 여러개의 변수를 선언할 수 있다.
 
+```javascript
+let user = 'Miseon', age = 26, message = 'Hello!';
+//여러개의 변수를 선언할 때 한 줄에 작성시 가독성이 떨어진다. 다음과 같은 방법을 추천
+
+let user = 'Miseon';
+let age = 26;
+let message = 'Hello!';
+
+let user = 'Miseon',
+    age = 26;
+    message = 'Hello!';
+```
 
 ## 변수 명명 규칙
 
