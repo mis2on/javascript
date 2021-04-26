@@ -60,7 +60,7 @@
 * [숫자야구](2020/undefined-5.md)
 * [반복문사용 & 별찍기](2020/and.md)
 
-## ES2021 <a id="2021"></a>
+## 모던 JavaScript
 
-* [day1](2021/untitled.md)
+* [intro](javascript/untitled.md)
 
